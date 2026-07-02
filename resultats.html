@@ -4,9 +4,9 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="robots" content="index, follow">
-<link rel="canonical" href="https://masques-led-visage.fr/blog.html"/>
-<title>Blog — Guide Masque LED Visage | LumiSkin</title>
-<meta name="description" content="Guides, comparatifs et conseils d'experts sur les masques LED visage. Tout savoir pour choisir et utiliser votre masque LED.">
+<link rel="canonical" href="https://masques-led-visage.fr/masque-led-visage-avant-après--résultats-réels-semaine-par-semaine"/>
+<title>Masque LED visage avant après : résultats réels semaine par semaine | LumiSkin</title>
+<meta name="description" content="Découvrez les vrais résultats d'un masque LED visage semaine par semaine. Études cliniques et avis vérifiés Amazon.">
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
 <style>
 
@@ -265,22 +265,28 @@
   @media(max-width:900px){.blog-grid{grid-template-columns:1fr;}}
 
 
-  .blog-hero { background:var(--cream-2); border-bottom:1px solid var(--border-soft); padding:8rem 4rem 4rem; text-align:center; }
-  .blog-hero h1 { font-family:'Cormorant Garamond',serif; font-size:clamp(2.5rem,5vw,4rem); font-weight:300; color:var(--text); margin-bottom:1rem; }
-  .blog-hero h1 em { font-style:italic; color:var(--gold); }
-  .blog-hero p { color:var(--text-muted); max-width:500px; margin:0 auto; font-size:0.95rem; line-height:1.8; }
-  .blog-list { max-width:900px; margin:0 auto; padding:5rem 2rem; }
-  .blog-post { display:grid; grid-template-columns:1fr 2fr; gap:2.5rem; padding:3rem 0; border-bottom:1px solid var(--border-soft); transition:all 0.3s; align-items:start; }
-  .blog-post:hover { padding-left:0.5rem; }
-  .blog-post-num { font-family:'Cormorant Garamond',serif; font-size:3.5rem; color:var(--gold-pale); line-height:1; transition:color 0.3s; }
-  .blog-post:hover .blog-post-num { color:var(--gold); }
-  .blog-post-tag { font-size:0.65rem; letter-spacing:0.2em; text-transform:uppercase; color:var(--gold); margin-bottom:0.5rem; }
-  .blog-post h2 { font-family:'Cormorant Garamond',serif; font-size:1.5rem; font-weight:300; color:var(--text); margin-bottom:0.7rem; line-height:1.3; }
-  .blog-post p { font-size:0.85rem; color:var(--text-muted); line-height:1.7; margin-bottom:1rem; }
-  .blog-post-meta { font-size:0.72rem; color:var(--text-muted); margin-bottom:1rem; }
-  .read-more { display:inline-flex; align-items:center; gap:0.5rem; color:var(--gold); font-size:0.78rem; font-weight:500; letter-spacing:0.08em; text-transform:uppercase; text-decoration:none; transition:gap 0.3s; }
-  .read-more:hover { gap:0.8rem; }
-  @media(max-width:600px){ .blog-post{grid-template-columns:1fr;} .blog-hero{padding:7rem 1.5rem 3rem;} .blog-list{padding:3rem 1.5rem;} }
+  /* ARTICLE PAGE */
+  .article-page { max-width: 760px; margin: 0 auto; padding: 9rem 2rem 5rem; }
+  .article-page-tag { font-size:0.68rem; letter-spacing:0.25em; text-transform:uppercase; color:var(--gold); margin-bottom:0.8rem; display:flex; align-items:center; gap:0.8rem; }
+  .article-page-tag::before { content:''; width:24px; height:1px; background:var(--gold); }
+  .article-page h1 { font-family:'Cormorant Garamond',serif; font-size:clamp(2rem,4vw,3.2rem); font-weight:300; line-height:1.15; color:var(--text); margin-bottom:1rem; }
+  .article-page h1 em { font-style:italic; color:var(--gold); }
+  .article-page-meta { font-size:0.75rem; color:var(--text-muted); letter-spacing:0.06em; margin-bottom:2.5rem; padding-bottom:2rem; border-bottom:1px solid var(--border-soft); }
+  .article-content h2 { font-family:'Cormorant Garamond',serif; font-size:1.6rem; font-weight:300; color:var(--text); margin:2.5rem 0 1rem; }
+  .article-content h2 em { font-style:italic; color:var(--gold); }
+  .article-content p { font-size:0.93rem; color:var(--text-muted); line-height:1.85; margin-bottom:1.2rem; }
+  .article-content ul { padding-left:1.4rem; margin-bottom:1.2rem; }
+  .article-content ul li { font-size:0.93rem; color:var(--text-muted); line-height:1.85; margin-bottom:0.4rem; }
+  .article-content strong { color:var(--text-mid); font-weight:500; }
+  .article-highlight { background:var(--gold-wash); border-left:3px solid var(--gold); padding:1.2rem 1.5rem; border-radius:0 var(--radius) var(--radius) 0; margin:2rem 0; font-size:0.93rem; color:var(--text-mid); line-height:1.75; }
+  .article-cta-box { background:var(--cream-2); border:1px solid var(--border); border-radius:var(--radius); padding:2rem; margin:2.5rem 0; text-align:center; }
+  .article-cta-box p { font-size:0.9rem; color:var(--text-muted); margin-bottom:1.2rem; }
+  .art-nav { display:flex; justify-content:space-between; gap:1rem; margin-top:3rem; padding-top:2rem; border-top:1px solid var(--border-soft); flex-wrap:wrap; }
+  .art-nav-btn { font-size:0.78rem; color:var(--gold); text-decoration:none; letter-spacing:0.06em; transition:opacity 0.3s; }
+  .art-nav-btn:hover { opacity:0.7; }
+  .art-nav-next { margin-left:auto; }
+  .back-link { display:inline-flex; align-items:center; gap:0.5rem; font-size:0.78rem; color:var(--text-muted); text-decoration:none; margin-bottom:2rem; transition:color 0.3s; }
+  .back-link:hover { color:var(--gold); }
 </style>
 </head>
 <body>
@@ -336,47 +342,73 @@
   </ul>
 </nav>
 
-<div class="blog-hero">
-  <div class="section-label" style="justify-content:center;display:flex;align-items:center;gap:0.8rem;margin-bottom:0.8rem;"><span style="width:24px;height:1px;background:var(--gold);display:block;"></span>Guides & Conseils</div>
-  <h1>Tout savoir sur les<br><em>masques LED visage</em></h1>
-  <p>Guides d'experts, comparatifs et conseils pratiques pour choisir et utiliser votre masque LED en toute confiance.</p>
-</div>
+<div class="article-page">
+  <a href="blog.html" class="back-link">← Retour aux articles</a>
+  <div class="article-page-tag">Résultats & Témoignages</div>
+  <h1>Masque LED visage avant après : résultats réels semaine par semaine</h1>
+  <div class="article-page-meta">Lecture 5 min · Juillet 2026</div>
 
-<div class="blog-list">
+  <div class="article-content">
 
-  <div class="blog-post reveal">
-    <div class="blog-post-num">01</div>
-    <div>
-      <div class="blog-post-tag">Résultats & Témoignages</div>
-      <h2>Masque LED visage avant après : résultats réels semaine par semaine</h2>
-      <div class="blog-post-meta">Lecture 5 min · Juillet 2026</div>
-      <p>Les photos "avant/après" fleurissent sur les réseaux. Mais qu'en est-il vraiment ? On décrypte les résultats réels basés sur les études cliniques et les avis vérifiés Amazon, semaine par semaine.</p>
-      <a href="resultats.html" class="read-more">Lire l'article →</a>
-    </div>
+    <p>Les photos "avant/après" des masques LED fleurissent sur les réseaux. Mais qu'en est-il vraiment ? On décrypte les résultats réels, semaine par semaine, basés sur les études cliniques et les avis vérifiés Amazon.</p>
+
+    <h2>Semaine 1 à 2 — <em>Les premiers signes</em></h2>
+    <p>Les premières séances ne produisent pas de transformation spectaculaire — et c'est normal. Ce que les utilisatrices rapportent dès la première semaine :</p>
+    <ul>
+      <li>Peau plus <strong>lumineuse et hydratée</strong> après chaque séance</li>
+      <li>Sensation de peau plus <strong>douce au toucher</strong></li>
+      <li>Légère <strong>réduction des rougeurs</strong> pour les peaux sensibles</li>
+    </ul>
+    <p>C'est la phase de "réveil cellulaire" — les mitochondries commencent à répondre à la lumière rouge et infrarouge.</p>
+
+    <div class="article-highlight">💡 <strong>Le saviez-vous ?</strong> La lumière rouge à 630 nm agit directement sur les mitochondries de vos cellules cutanées, boostant leur production d'énergie (ATP). C'est ce mécanisme qui déclenche la production de collagène.</div>
+
+    <h2>Semaine 3 à 4 — <em>Les changements visibles</em></h2>
+    <p>C'est généralement à partir de la 3ème semaine que les changements deviennent visibles à l'œil nu :</p>
+    <ul>
+      <li><strong>Teint plus uniforme</strong> et éclat amélioré</li>
+      <li>Pores <strong>resserrés</strong> notamment sur le nez et les joues</li>
+      <li>Légère <strong>atténuation des petites ridules</strong> autour des yeux</li>
+      <li>Pour les peaux acnéiques : <strong>réduction des boutons actifs</strong></li>
+    </ul>
+
+    <h2>Semaine 5 à 8 — <em>Les résultats structurels</em></h2>
+    <p>C'est la phase où les résultats deviennent réellement mesurables. Les études cliniques des fabricants montrent :</p>
+    <ul>
+      <li><strong>+34% d'éclat cutané</strong> mesuré (données Shark CryoGlow)</li>
+      <li><strong>-28% de ridules visibles</strong> autour des yeux et du front</li>
+      <li><strong>+20% de fermeté</strong> sur les joues et le contour du visage</li>
+      <li>Amélioration de la <strong>texture générale</strong> de la peau</li>
+    </ul>
+
+    <h2>Ce que disent les <em>acheteurs Amazon vérifiés</em></h2>
+    <p>En analysant les avis des 5 masques de notre sélection, voici les retours les plus fréquents :</p>
+    <ul>
+      <li>"Ma peau est plus fraîche et les petites ridules autour des yeux sont moins visibles après 4 semaines" — <strong>INIA Glow 2</strong></li>
+      <li>"Peau plus nette et texture améliorée dès les premières semaines" — <strong>Nanoleaf</strong></li>
+      <li>"Le silicone souple est très confortable, résultats visibles sur l'éclat" — <strong>RENPHO Artemis</strong></li>
+    </ul>
+
+    <h2>Les conditions pour <em>obtenir des résultats</em></h2>
+    <p>Les résultats ne sont pas automatiques — ils dépendent de 3 facteurs clés :</p>
+    <ul>
+      <li><strong>La régularité</strong> : 3 à 5 séances par semaine minimum</li>
+      <li><strong>La durée</strong> : au moins 8 semaines avant de juger</li>
+      <li><strong>La qualité du masque</strong> : irradiance suffisante et longueurs d'onde prouvées (rouge 630nm + infrarouge 850nm)</li>
+    </ul>
+
+    <div class="article-highlight">✅ <strong>Notre verdict :</strong> Les résultats sont réels mais progressifs. Un masque LED n'est pas un miracle instantané — c'est un investissement dans votre routine beauté qui porte ses fruits sur le long terme.</div>
+
   </div>
 
-  <div class="blog-post reveal">
-    <div class="blog-post-num">02</div>
-    <div>
-      <div class="blog-post-tag">Guide d'achat</div>
-      <h2>Masque LED visage : lequel choisir en 2026 ?</h2>
-      <div class="blog-post-meta">Lecture 4 min · Juin 2026</div>
-      <p>Irradiance, longueurs d'onde, certifications CE/FDA, budget... Tout ce qu'il faut savoir avant d'acheter un masque LED visage. Le guide complet pour faire le bon choix.</p>
-      <a href="guide.html" class="read-more">Lire l'article →</a>
-    </div>
+  <div class="article-cta-box">
+    <p>Prêt(e) à choisir votre masque LED ? Découvrez notre sélection des 5 meilleurs modèles testés et comparés.</p>
+    <a href="index.html#produits" class="btn-primary">Voir la sélection →</a>
   </div>
 
-  <div class="blog-post reveal">
-    <div class="blog-post-num">03</div>
-    <div>
-      <div class="blog-post-tag">Comparatif</div>
-      <h2>INIA Glow 2 vs Shark CryoGlow : lequel est fait pour vous ?</h2>
-      <div class="blog-post-meta">Lecture 5 min · Juin 2026</div>
-      <p>Deux masques haut de gamme, deux approches différentes. Comparatif complet sur le prix, l'efficacité et la technologie pour vous aider à choisir entre ces deux références du marché.</p>
-      <a href="comparatif.html" class="read-more">Lire l'article →</a>
-    </div>
+  <div class="art-nav">
+    <a href="guide.html" class="art-nav-btn art-nav-next">Comment choisir son masque LED →</a>
   </div>
-
 </div>
 
 <!-- FOOTER -->
