@@ -263,6 +263,40 @@
   .article-cta:hover{gap:0.8rem;}
   @media(max-width:900px){.blog-grid{grid-template-columns:1fr;}}
 
+
+  /* TÉMOIGNAGES */
+  .temoignages-section{background:var(--cream);border-top:1px solid var(--border-soft);}
+  .temoignages-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;margin-top:3rem;}
+  .temoignage-card{background:var(--cream-2);border:1px solid var(--border-soft);border-radius:var(--radius);padding:2rem;transition:all 0.3s;position:relative;}
+  .temoignage-card:hover{border-color:var(--border);box-shadow:var(--shadow);transform:translateY(-3px);}
+  .temoignage-stars{color:var(--gold);font-size:0.9rem;letter-spacing:2px;margin-bottom:1rem;}
+  .temoignage-text{font-size:0.88rem;color:var(--text-mid);line-height:1.75;font-style:italic;margin-bottom:1.2rem;}
+  .temoignage-text::before{content:'"';font-family:'Cormorant Garamond',serif;font-size:2rem;color:var(--gold);opacity:0.4;line-height:0;vertical-align:-0.6rem;margin-right:0.2rem;}
+  .temoignage-text::after{content:'"';font-family:'Cormorant Garamond',serif;font-size:2rem;color:var(--gold);opacity:0.4;line-height:0;vertical-align:-0.6rem;margin-left:0.2rem;}
+  .temoignage-author{display:flex;align-items:center;gap:0.8rem;padding-top:1rem;border-top:1px solid var(--border-soft);}
+  .temoignage-avatar{width:36px;height:36px;border-radius:50%;background:var(--gold-wash);border:1px solid var(--border);display:flex;align-items:center;justify-content:center;font-family:'Cormorant Garamond',serif;font-size:1rem;color:var(--gold);flex-shrink:0;}
+  .temoignage-name{font-size:0.8rem;color:var(--text);font-weight:500;}
+  .temoignage-product{font-size:0.7rem;color:var(--text-muted);letter-spacing:0.06em;}
+  .temoignage-badge{position:absolute;top:1rem;right:1rem;font-size:0.6rem;letter-spacing:0.1em;text-transform:uppercase;color:var(--gold);border:1px solid var(--border);padding:0.2rem 0.5rem;border-radius:100px;background:var(--gold-wash);}
+
+  /* TABLEAU COMPARATIF */
+  .comparatif-wrap{overflow-x:auto;margin-top:3rem;}
+  .comparatif-table{width:100%;border-collapse:collapse;min-width:700px;}
+  .comparatif-table th{background:var(--text);color:#fff;padding:1rem 1.2rem;font-family:'Cormorant Garamond',serif;font-size:1rem;font-weight:300;letter-spacing:0.06em;text-align:center;}
+  .comparatif-table th:first-child{text-align:left;background:var(--dark,#2C2416);}
+  .comparatif-table th.best{background:var(--gold);}
+  .comparatif-table td{padding:0.9rem 1.2rem;font-size:0.82rem;border-bottom:1px solid var(--border-soft);text-align:center;color:var(--text-mid);}
+  .comparatif-table td:first-child{text-align:left;font-weight:500;color:var(--text);background:var(--cream-2);}
+  .comparatif-table tr:hover td{background:var(--gold-wash);}
+  .comparatif-table tr:hover td:first-child{background:var(--gold-wash);}
+  .check{color:#047857;font-size:1rem;}
+  .cross{color:#DC2626;font-size:1rem;}
+  .comparatif-table .best-col{background:rgba(184,146,42,0.05);}
+  .comparatif-btn-row td{padding:1rem 1.2rem;border-bottom:none;}
+  .comparatif-note{font-size:0.75rem;color:var(--text-muted);margin-top:1rem;text-align:center;line-height:1.6;}
+
+  @media(max-width:900px){.temoignages-grid{grid-template-columns:1fr;}}
+
 </style>
 </head>
 <body>
@@ -726,6 +760,230 @@
   </div>
 </div>
 
+
+
+<!-- TÉMOIGNAGES -->
+<div class="temoignages-section">
+  <div class="section-wrap">
+    <div class="section-label">Avis clients vérifiés Amazon</div>
+    <h2>Ce qu'ils disent<br>après <em>avoir essayé</em></h2>
+    <p style="color:var(--text-muted);max-width:520px;font-size:0.93rem;line-height:1.8;">Des retours authentiques d'acheteurs vérifiés Amazon — pour vous aider à choisir en confiance.</p>
+
+    <div class="temoignages-grid reveal">
+
+      <div class="temoignage-card">
+        <div class="temoignage-badge">Achat vérifié</div>
+        <div class="temoignage-stars">★★★★★</div>
+        <p class="temoignage-text">Ma peau est plus fraîche et les petites ridules autour des yeux sont moins visibles après 4 semaines. Le masque est confortable, reste froid et l'autonomie est très suffisante. Je l'utilise principalement en lumière rouge — simple et efficace.</p>
+        <div class="temoignage-author">
+          <div class="temoignage-avatar">S</div>
+          <div>
+            <div class="temoignage-name">Sophie M.</div>
+            <div class="temoignage-product">INIA Glow 2</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="temoignage-card">
+        <div class="temoignage-badge">Achat vérifié</div>
+        <div class="temoignage-stars">★★★★★</div>
+        <p class="temoignage-text">J'ai principalement utilisé les modes rouge et bleu — peau plus nette et texture améliorée. Les séances de 5 à 10 min s'intègrent facilement dans la routine. Très bon rapport qualité/prix, surtout comparé aux masques à 500€ du marché.</p>
+        <div class="temoignage-author">
+          <div class="temoignage-avatar">L</div>
+          <div>
+            <div class="temoignage-name">Laura D.</div>
+            <div class="temoignage-product">Nanoleaf LED Mask</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="temoignage-card">
+        <div class="temoignage-badge">Achat vérifié</div>
+        <div class="temoignage-stars">★★★★★</div>
+        <p class="temoignage-text">Le masque est beau, bien conçu et tient bien sur le visage. Ma peau a l'air plus lisse et plus radieuse après quelques semaines. Le silicone souple est très confortable, on peut l'utiliser en lisant. Très bon cadeau beauté.</p>
+        <div class="temoignage-author">
+          <div class="temoignage-avatar">M</div>
+          <div>
+            <div class="temoignage-name">Marie C.</div>
+            <div class="temoignage-product">RENPHO Artemis</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="temoignage-card">
+        <div class="temoignage-badge">Achat vérifié</div>
+        <div class="temoignage-stars">★★★★☆</div>
+        <p class="temoignage-text">Les programmes sont très courts (3 à 8 min) ce qui facilite l'usage quotidien. La télécommande à molette est intuitive. Le système cryo des yeux est super agréable. Bémol : le prix élevé. Mais les résultats sur le teint et les rougeurs sont visibles.</p>
+        <div class="temoignage-author">
+          <div class="temoignage-avatar">C</div>
+          <div>
+            <div class="temoignage-name">Claire B.</div>
+            <div class="temoignage-product">Shark CryoGlow</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="temoignage-card">
+        <div class="temoignage-badge">Achat vérifié</div>
+        <div class="temoignage-stars">★★★★☆</div>
+        <p class="temoignage-text">Ma femme est ravie, elle trouve une douceur de peau dès les premières utilisations. Léger, facile à installer, couvre bien tout le visage. Au prix où il est, il ne faut pas hésiter. Bon rapport qualité/prix pour débuter en luminothérapie.</p>
+        <div class="temoignage-author">
+          <div class="temoignage-avatar">P</div>
+          <div>
+            <div class="temoignage-name">Pierre L.</div>
+            <div class="temoignage-product">Silk'n LED Face Mask</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="temoignage-card">
+        <div class="temoignage-badge">Achat vérifié</div>
+        <div class="temoignage-stars">★★★★★</div>
+        <p class="temoignage-text">Après 6 semaines d'utilisation régulière, ma peau est visiblement plus ferme et lumineuse. Les ridules du front ont diminué. Je l'utilise 4 fois par semaine, 10 minutes. C'est devenu un rituel indispensable dans ma routine beauté.</p>
+        <div class="temoignage-author">
+          <div class="temoignage-avatar">N</div>
+          <div>
+            <div class="temoignage-name">Nathalie R.</div>
+            <div class="temoignage-product">INIA Glow 2</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+<!-- TABLEAU COMPARATIF -->
+<div class="bg-cream2">
+  <div class="section-wrap">
+    <div class="section-label">Comparatif complet</div>
+    <h2>Les 5 masques<br><em>côte à côte</em></h2>
+    <p style="color:var(--text-muted);max-width:520px;font-size:0.93rem;line-height:1.8;">Tous les critères importants en un seul tableau pour choisir rapidement le masque qui vous correspond.</p>
+
+    <div class="comparatif-wrap reveal">
+      <table class="comparatif-table">
+        <thead>
+          <tr>
+            <th>Critères</th>
+            <th class="best">INIA Glow 2 ⭐</th>
+            <th>RENPHO Artemis</th>
+            <th>Shark CryoGlow</th>
+            <th>Silk'n</th>
+            <th>Nanoleaf</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Prix indicatif</td>
+            <td class="best-col">~329 €</td>
+            <td>Voir Amazon</td>
+            <td>~399 €</td>
+            <td>~120 €</td>
+            <td>~130 €</td>
+          </tr>
+          <tr>
+            <td>Nombre de LED</td>
+            <td class="best-col">220 LED</td>
+            <td>324 LED</td>
+            <td>480 LED</td>
+            <td>100 LED</td>
+            <td>Non communiqué</td>
+          </tr>
+          <tr>
+            <td>Lumière Rouge</td>
+            <td class="best-col"><span class="check">✓</span></td>
+            <td><span class="check">✓</span></td>
+            <td><span class="check">✓</span></td>
+            <td><span class="check">✓</span></td>
+            <td><span class="check">✓</span></td>
+          </tr>
+          <tr>
+            <td>Infrarouge NIR</td>
+            <td class="best-col"><span class="check">✓</span></td>
+            <td><span class="check">✓</span></td>
+            <td><span class="check">✓</span></td>
+            <td><span class="cross">✗</span></td>
+            <td><span class="check">✓</span></td>
+          </tr>
+          <tr>
+            <td>Lumière Bleue</td>
+            <td class="best-col"><span class="check">✓</span></td>
+            <td><span class="check">✓</span></td>
+            <td><span class="check">✓</span></td>
+            <td><span class="check">✓</span></td>
+            <td><span class="check">✓</span></td>
+          </tr>
+          <tr>
+            <td>Certification FDA</td>
+            <td class="best-col"><span class="check">✓</span></td>
+            <td><span class="cross">✗</span></td>
+            <td><span class="check">✓</span></td>
+            <td><span class="cross">✗</span></td>
+            <td><span class="check">✓</span></td>
+          </tr>
+          <tr>
+            <td>Certification CE</td>
+            <td class="best-col"><span class="cross">✗</span></td>
+            <td><span class="cross">✗</span></td>
+            <td><span class="check">✓</span></td>
+            <td><span class="check">✓</span></td>
+            <td><span class="cross">✗</span></td>
+          </tr>
+          <tr>
+            <td>Silicone souple</td>
+            <td class="best-col"><span class="cross">✗</span></td>
+            <td><span class="check">✓</span></td>
+            <td><span class="cross">✗</span></td>
+            <td><span class="check">✓</span></td>
+            <td><span class="check">✓</span></td>
+          </tr>
+          <tr>
+            <td>Sans fil</td>
+            <td class="best-col"><span class="check">✓</span></td>
+            <td><span class="check">✓</span></td>
+            <td><span class="check">✓</span></td>
+            <td><span class="check">✓</span></td>
+            <td><span class="check">✓</span></td>
+          </tr>
+          <tr>
+            <td>Cryothérapie yeux</td>
+            <td class="best-col"><span class="cross">✗</span></td>
+            <td><span class="cross">✗</span></td>
+            <td><span class="check">✓</span></td>
+            <td><span class="cross">✗</span></td>
+            <td><span class="cross">✗</span></td>
+          </tr>
+          <tr>
+            <td>Note Amazon</td>
+            <td class="best-col">4.6 / 5 ★</td>
+            <td>4.4 / 5 ★</td>
+            <td>4.5 / 5 ★</td>
+            <td>4.3 / 5 ★</td>
+            <td>4.7 / 5 ★</td>
+          </tr>
+          <tr>
+            <td>Idéal pour</td>
+            <td class="best-col">Anti-âge pur</td>
+            <td>Confort & cadeau</td>
+            <td>Cernes & rides</td>
+            <td>Débuter</td>
+            <td>Rapport qualité/prix</td>
+          </tr>
+          <tr class="comparatif-btn-row">
+            <td></td>
+            <td class="best-col"><a href="https://www.amazon.fr/INIA-th%C3%A9rapie-d%C3%A9clairage-infrarouge-rechargeable/dp/B0F18BBHCC/?tag=gestionproj09-21" target="_blank" rel="nofollow sponsored" class="btn-primary" style="font-size:0.7rem;padding:0.6rem 1rem;display:inline-block;">Voir sur Amazon</a></td>
+            <td><a href="https://www.amazon.fr/RENPHO-silicone-couverture-danniversaire-rechargeable/dp/B0FJS8ZQWS/?tag=gestionproj09-21" target="_blank" rel="nofollow sponsored" class="btn-outline" style="font-size:0.7rem;padding:0.6rem 1rem;display:inline-block;">Voir sur Amazon</a></td>
+            <td><a href="https://www.amazon.fr/Shark-rafra%C3%AEchissement-Phototh%C3%A9rapie-infrarouge-T%C3%A9l%C3%A9commande/dp/B0FN4T23Q5/?tag=gestionproj09-21&th=1" target="_blank" rel="nofollow sponsored" class="btn-outline" style="font-size:0.7rem;padding:0.6rem 1rem;display:inline-block;">Voir sur Amazon</a></td>
+            <td><a href="https://www.amazon.fr/Silkn-Masque-Masques-Lumi%C3%A8re-Anti-%C3%82ge/dp/B0B1MW24HS/?tag=gestionproj09-21&th=1" target="_blank" rel="nofollow sponsored" class="btn-outline" style="font-size:0.7rem;padding:0.6rem 1rem;display:inline-block;">Voir sur Amazon</a></td>
+            <td><a href="https://www.amazon.fr/Nanoleaf-Luminoth%C3%A9rapie-Protection-Traitement-Rechargeable/dp/B0DQSK8Y52/?tag=gestionproj09-21" target="_blank" rel="nofollow sponsored" class="btn-outline" style="font-size:0.7rem;padding:0.6rem 1rem;display:inline-block;">Voir sur Amazon</a></td>
+          </tr>
+        </tbody>
+      </table>
+      <p class="comparatif-note">⚠️ Les prix sont indicatifs et peuvent varier sur Amazon. Cliquez sur "Voir sur Amazon" pour le prix en temps réel.</p>
+    </div>
+  </div>
+</div>
 
 <!-- BLOG ARTICLES -->
 <div class="blog-section" id="blog">
