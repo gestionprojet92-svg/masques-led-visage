@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://masques-led-visage.fr/acne.html"/>
+<title>Masque LED visage acné : ça marche vraiment ? | LumiSkin</title>
+<meta name="description" content="La lumière LED bleue et rouge est-elle efficace contre l'acné ? Guide scientifique complet avec protocole d'utilisation et résultats attendus semaine par semaine.">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+
+  :root {
+    --gold:#B8922A; --gold-light:#D4AC50; --gold-pale:#E8D5A0; --gold-wash:#F5EDD4;
+    --cream:#FDFAF4; --cream-2:#F7F2E8; --cream-3:#EFE8D8;
+    --text:#2C2416; --text-mid:#6B5C3E; --text-muted:#9A8A6E;
+    --border:rgba(184,146,42,0.2); --border-soft:rgba(184,146,42,0.09);
+    --radius:4px; --shadow:0 4px 32px rgba(44,36,22,0.07); --shadow-lg:0 16px 60px rgba(44,36,22,0.13);
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{background:var(--cream);color:var(--text);font-family:'DM Sans',sans-serif;font-weight:300;line-height:1.7;overflow-x:hidden;}
+
+  /* NAV */
+  nav{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;align-items:center;justify-content:space-between;padding:1.1rem 4rem;background:rgba(253,250,244,0.95);backdrop-filter:blur(14px);border-bottom:1px solid var(--border-soft);}
+  .logo{display:flex;align-items:center;gap:0.7rem;font-family:'Cormorant Garamond',serif;font-size:1.5rem;letter-spacing:0.1em;color:var(--gold);font-weight:300;text-decoration:none;}
+  .logo span{font-style:italic;}
+  nav ul{display:flex;gap:2.5rem;list-style:none;font-size:0.74rem;letter-spacing:0.14em;text-transform:uppercase;color:var(--text-muted);}
+  nav ul a{color:inherit;text-decoration:none;transition:color 0.3s;}
+  nav ul a:hover{color:var(--gold);}
+
+  /* HERO */
+  .hero-wrap{background:var(--cream);padding-top:5.5rem;}
+  .hero{max-width:1200px;margin:0 auto;padding:5rem 4rem 4rem;display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:center;}
+  .hero-badge{display:inline-flex;align-items:center;gap:0.5rem;border:1px solid var(--border);color:var(--gold);font-size:0.68rem;letter-spacing:0.2em;text-transform:uppercase;padding:0.4rem 1.1rem;border-radius:100px;background:var(--gold-wash);margin-bottom:1.8rem;}
+  .hero h1{font-family:'Cormorant Garamond',serif;font-size:clamp(2.8rem,5vw,4.8rem);font-weight:300;line-height:1.06;color:var(--text);margin-bottom:1.4rem;}
+  .hero h1 em{font-style:italic;color:var(--gold);}
+  .hero-sub{color:var(--text-muted);font-size:1rem;max-width:420px;margin-bottom:2.5rem;line-height:1.8;}
+  .hero-cta{display:flex;gap:1rem;flex-wrap:wrap;}
+  .btn-primary{background:var(--gold);color:#fff;padding:0.9rem 2.2rem;font-size:0.78rem;font-weight:500;letter-spacing:0.1em;text-transform:uppercase;text-decoration:none;border-radius:var(--radius);transition:all 0.3s;border:none;cursor:pointer;box-shadow:0 4px 20px rgba(184,146,42,0.3);}
+  .btn-primary:hover{background:var(--gold-light);transform:translateY(-2px);box-shadow:0 8px 30px rgba(184,146,42,0.4);}
+  .btn-outline{background:transparent;color:var(--text);padding:0.9rem 2.2rem;font-size:0.78rem;letter-spacing:0.1em;text-transform:uppercase;text-decoration:none;border-radius:var(--radius);border:1px solid var(--border);transition:all 0.3s;}
+  .btn-outline:hover{border-color:var(--gold);color:var(--gold);transform:translateY(-2px);}
+  .hero-stats{display:flex;gap:2.5rem;margin-top:2.5rem;padding-top:2rem;border-top:1px solid var(--border-soft);}
+  .hero-stat-num{font-family:'Cormorant Garamond',serif;font-size:1.8rem;color:var(--gold);display:block;}
+  .hero-stat-label{font-size:0.7rem;color:var(--text-muted);letter-spacing:0.06em;}
+
+
+  /* HERO PHOTO */
+  .hero-photo-wrap{position:relative;width:100%;max-width:480px;border-radius:2px;overflow:hidden;box-shadow:0 32px 80px rgba(44,36,22,0.18);}
+  .hero-photo{width:100%;height:340px;object-fit:cover;object-position:center top;display:block;transition:transform 0.8s ease;}
+  .hero-photo-wrap:hover .hero-photo{transform:scale(1.03);}
+  .hero-photo-overlay{position:absolute;inset:0;background:linear-gradient(to bottom,transparent 55%,rgba(44,36,22,0.35) 100%);pointer-events:none;}
+  .hero-photo-badge{position:absolute;bottom:1.5rem;left:1.5rem;display:flex;align-items:center;gap:0.6rem;background:rgba(253,250,244,0.92);backdrop-filter:blur(10px);padding:0.55rem 1.1rem;border-radius:100px;font-size:0.72rem;letter-spacing:0.12em;text-transform:uppercase;color:var(--text-mid);border:1px solid var(--border);}
+  .hpb-dot{width:8px;height:8px;border-radius:50%;}
+  .hpb-dot.red{background:#FF6B6B;box-shadow:0 0 6px #FF6B6B;}
+  .hpb-dot.ir{background:#C084FC;box-shadow:0 0 6px #C084FC;}
+
+  /* HERO VISUAL */
+  .hero-visual{display:flex;align-items:center;justify-content:center;animation:fadeUp 1s 0.2s ease both;}
+  .hero-svg-wrap{position:relative;width:100%;max-width:400px;}
+  .hero-svg-wrap svg{width:100%;filter:drop-shadow(0 24px 60px rgba(184,146,42,0.18));animation:float 7s ease-in-out infinite;}
+  @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-12px)}}
+  @keyframes fadeUp{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:translateY(0)}}
+
+  /* DIVIDER */
+  .spectrum-bar{height:2px;background:linear-gradient(to right,transparent,#FF6B6B 20%,#FFD166 45%,#6BA3FF 70%,transparent);opacity:0.45;}
+
+  /* SECTIONS */
+  .section-wrap{max-width:1200px;margin:0 auto;padding:6rem 4rem;}
+  .bg-cream2{background:var(--cream-2);border-top:1px solid var(--border-soft);border-bottom:1px solid var(--border-soft);}
+  .section-label{font-size:0.68rem;letter-spacing:0.25em;text-transform:uppercase;color:var(--gold);margin-bottom:0.8rem;display:flex;align-items:center;gap:0.8rem;}
+  .section-label::before{content:'';width:24px;height:1px;background:var(--gold);}
+  h2{font-family:'Cormorant Garamond',serif;font-size:clamp(2rem,3.5vw,3rem);font-weight:300;line-height:1.15;margin-bottom:1.2rem;}
+  h2 em{font-style:italic;color:var(--gold);}
+
+  /* LUMIÈRES */
+  .lights-grid{display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;margin-top:3rem;}
+  .light-card{background:var(--cream);border:1px solid var(--border-soft);border-radius:var(--radius);padding:2.2rem;transition:all 0.3s;position:relative;overflow:hidden;}
+  .light-card:hover{border-color:var(--border);box-shadow:var(--shadow);transform:translateY(-3px);}
+  .light-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;border-radius:var(--radius) var(--radius) 0 0;}
+  .light-card.red::before{background:#FF6B6B;box-shadow:0 0 12px #FF6B6B;}
+  .light-card.ir::before{background:#C084FC;box-shadow:0 0 12px #C084FC;}
+  .light-card.blue::before{background:#6BA3FF;box-shadow:0 0 12px #6BA3FF;}
+  .light-card.amber::before{background:#FFD166;box-shadow:0 0 12px #FFD166;}
+  .light-top{display:flex;align-items:center;gap:0.9rem;margin-bottom:1.1rem;}
+  .led-pip{width:11px;height:11px;border-radius:50%;flex-shrink:0;}
+  .led-pip.red{background:#FF6B6B;box-shadow:0 0 8px #FF6B6B;}
+  .led-pip.ir{background:#C084FC;box-shadow:0 0 8px #C084FC;}
+  .led-pip.blue{background:#6BA3FF;box-shadow:0 0 8px #6BA3FF;}
+  .led-pip.amber{background:#FFD166;box-shadow:0 0 8px #FFD166;}
+  .light-nm{font-size:0.68rem;color:var(--text-muted);letter-spacing:0.08em;}
+  .light-card h3{font-family:'Cormorant Garamond',serif;font-size:1.2rem;font-weight:400;margin-bottom:0.5rem;}
+  .light-card p{font-size:0.83rem;color:var(--text-muted);line-height:1.65;}
+  .light-badge{display:inline-block;margin-top:0.9rem;font-size:0.62rem;letter-spacing:0.1em;text-transform:uppercase;padding:0.22rem 0.7rem;border-radius:100px;}
+  .badge-proven{background:rgba(110,231,183,0.15);color:#047857;border:1px solid rgba(110,231,183,0.4);}
+  .badge-promising{background:rgba(107,163,255,0.12);color:#1D4ED8;border:1px solid rgba(107,163,255,0.3);}
+  .badge-limited{background:rgba(255,209,102,0.15);color:#92400E;border:1px solid rgba(255,209,102,0.35);}
+
+  /* PRODUCT CARDS */
+  .products-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:1.8rem;margin-top:3rem;}
+  .product-card{background:var(--cream);border:1px solid var(--border-soft);border-radius:var(--radius);overflow:hidden;transition:all 0.4s;box-shadow:var(--shadow);display:flex;flex-direction:column;position:relative;}
+  .product-card:hover{border-color:rgba(184,146,42,0.35);transform:translateY(-6px);box-shadow:var(--shadow-lg);}
+  .product-card.top1{border-color:rgba(184,146,42,0.3);}
+  .top-badge{position:absolute;top:1rem;left:1rem;z-index:2;background:var(--gold);color:#fff;font-size:0.62rem;font-weight:500;letter-spacing:0.1em;text-transform:uppercase;padding:0.28rem 0.8rem;border-radius:100px;}
+
+  /* PHOTO ZONE */
+  .product-img{position:relative;height:230px;overflow:hidden;background:var(--cream-2);}
+  .product-card.top1 .product-img{height:260px;}
+  .product-img img{width:100%;height:100%;object-fit:contain;object-position:center;padding:1rem;transition:transform 0.5s ease;}
+  .product-card:hover .product-img img{transform:scale(1.05);}
+  .product-img::after{content:'';position:absolute;bottom:0;left:0;right:0;height:40px;background:linear-gradient(to top,var(--cream),transparent);pointer-events:none;}
+
+  .product-info{padding:1.7rem;flex:1;}
+  .product-brand{font-size:0.65rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--gold);margin-bottom:0.3rem;}
+  .product-name{font-family:'Cormorant Garamond',serif;font-size:1.2rem;font-weight:400;color:var(--text);margin-bottom:0.7rem;line-height:1.3;}
+  .product-desc{font-size:0.82rem;color:var(--text-muted);line-height:1.65;margin-bottom:1rem;}
+  .product-specs{display:flex;flex-wrap:wrap;gap:0.4rem;margin-bottom:1.2rem;}
+  .spec-tag{font-size:0.67rem;letter-spacing:0.05em;padding:0.22rem 0.65rem;border:1px solid var(--border);color:var(--text-mid);border-radius:100px;background:var(--cream-2);}
+
+  /* AVIS CLIENTS */
+  .avis-box{background:var(--gold-wash);border:1px solid var(--border);border-radius:var(--radius);padding:1rem 1.2rem;margin-bottom:1.2rem;}
+  .avis-header{display:flex;align-items:center;gap:0.6rem;margin-bottom:0.5rem;}
+  .avis-stars{color:var(--gold);font-size:0.8rem;letter-spacing:-1px;}
+  .avis-score{font-family:'Cormorant Garamond',serif;font-size:1.1rem;color:var(--text);font-weight:400;}
+  .avis-count{font-size:0.7rem;color:var(--text-muted);}
+  .avis-text{font-size:0.78rem;color:var(--text-mid);line-height:1.6;font-style:italic;}
+  .avis-text::before{content:'"';}
+  .avis-text::after{content:'"';}
+
+  .product-footer{display:flex;align-items:center;justify-content:space-between;padding:1rem 1.7rem;border-top:1px solid var(--border-soft);background:var(--cream-2);}
+  .product-price{font-family:'Cormorant Garamond',serif;font-size:1.3rem;color:var(--text);}
+  .btn-amazon{display:flex;align-items:center;gap:0.6rem;justify-content:center;background:var(--gold);color:#fff;padding:0.8rem 1.4rem;font-size:0.76rem;font-weight:500;letter-spacing:0.08em;text-transform:uppercase;text-decoration:none;border-radius:var(--radius);transition:all 0.3s;margin:0 1.5rem 1.5rem;box-shadow:0 2px 12px rgba(184,146,42,0.25);}
+  .btn-amazon:hover{background:var(--gold-light);box-shadow:0 6px 24px rgba(184,146,42,0.4);transform:translateY(-1px);}
+
+  /* GUIDE */
+  .guide-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;margin-top:3rem;}
+  .guide-card{background:var(--cream);border:1px solid var(--border-soft);padding:2rem;border-radius:var(--radius);transition:all 0.3s;}
+  .guide-card:hover{border-color:var(--border);box-shadow:var(--shadow);transform:translateY(-2px);}
+  .guide-num{font-family:'Cormorant Garamond',serif;font-size:2.5rem;color:var(--gold-pale);line-height:1;margin-bottom:0.8rem;transition:color 0.3s;}
+  .guide-card:hover .guide-num{color:var(--gold);}
+  .guide-card h3{font-family:'Cormorant Garamond',serif;font-size:1.05rem;margin-bottom:0.5rem;}
+  .guide-card p{font-size:0.82rem;color:var(--text-muted);line-height:1.65;}
+
+  /* MODE EMPLOI */
+  .how-grid{display:grid;grid-template-columns:1fr 1fr;gap:5rem;align-items:start;margin-top:3rem;}
+  .steps{display:flex;flex-direction:column;}
+  .step{display:flex;gap:1.5rem;padding:1.4rem 0;border-bottom:1px solid var(--border-soft);transition:all 0.3s;}
+  .step:hover{padding-left:0.5rem;}
+  .step-num{font-family:'Cormorant Garamond',serif;font-size:1.8rem;color:var(--gold-pale);line-height:1;min-width:36px;transition:color 0.3s;}
+  .step:hover .step-num{color:var(--gold);}
+  .step-content h4{font-family:'Cormorant Garamond',serif;font-size:1.05rem;margin-bottom:0.3rem;}
+  .step-content p{font-size:0.83rem;color:var(--text-muted);}
+  .science-panel{background:var(--cream-2);border:1px solid var(--border);border-radius:var(--radius);padding:2.5rem;}
+  .science-panel h3{font-family:'Cormorant Garamond',serif;font-size:1.1rem;margin-bottom:1.8rem;color:var(--text-muted);font-weight:300;}
+  .wl-row{display:flex;align-items:center;gap:0.9rem;margin-bottom:1.3rem;}
+  .wl-dot{width:11px;height:11px;border-radius:50%;flex-shrink:0;}
+  .wl-name{font-size:0.8rem;color:var(--text);min-width:80px;}
+  .wl-track{flex:1;background:var(--cream-3);height:5px;border-radius:3px;overflow:hidden;}
+  .wl-fill{height:100%;border-radius:3px;transition:width 1.2s ease;}
+  .wl-nm{font-size:0.68rem;color:var(--text-muted);min-width:55px;text-align:right;}
+  .science-note{margin-top:1.5rem;padding:1rem 1.2rem;background:var(--gold-wash);border-left:2px solid var(--gold);border-radius:0 var(--radius) var(--radius) 0;font-size:0.78rem;color:var(--text-mid);line-height:1.6;}
+
+  /* FAQ */
+  .faq-wrap{max-width:680px;margin:3rem auto 0;}
+  .faq-item{border-bottom:1px solid var(--border-soft);}
+  .faq-q{display:flex;justify-content:space-between;align-items:center;padding:1.35rem 0;cursor:pointer;font-family:'Cormorant Garamond',serif;font-size:1.05rem;color:var(--text);transition:color 0.3s;user-select:none;}
+  .faq-q:hover{color:var(--gold);}
+  .faq-icon{font-size:1.1rem;color:var(--gold);transition:transform 0.3s;flex-shrink:0;margin-left:1rem;}
+  .faq-a{max-height:0;overflow:hidden;transition:max-height 0.4s ease,padding 0.3s;font-size:0.85rem;color:var(--text-muted);line-height:1.75;}
+  .faq-item.open .faq-a{max-height:250px;padding-bottom:1.2rem;}
+  .faq-item.open .faq-icon{transform:rotate(45deg);}
+
+  /* CTA */
+  .cta-section{background:linear-gradient(135deg,var(--gold-wash),var(--cream-2));border-top:1px solid var(--border);border-bottom:1px solid var(--border);text-align:center;padding:6rem 4rem;}
+  .cta-section p{color:var(--text-muted);max-width:460px;margin:0 auto 2rem;}
+
+  /* FOOTER */
+  footer{padding:3rem 4rem;border-top:1px solid var(--border-soft);display:flex;align-items:flex-start;justify-content:space-between;flex-wrap:wrap;gap:2rem;background:var(--cream);}
+  .footer-disclaimer{font-size:0.71rem;color:var(--text-muted);max-width:460px;line-height:1.65;}
+  footer nav ul{gap:1.5rem;}
+
+  /* REVEAL */
+  .reveal{opacity:0;transform:translateY(28px);transition:opacity 0.7s ease,transform 0.7s ease;}
+  .reveal.visible{opacity:1;transform:translateY(0);}
+
+  /* RESPONSIVE */
+  @media(max-width:900px){
+    nav{padding:1.1rem 1.5rem;}nav ul{display:none;}
+    .hero{grid-template-columns:1fr;padding:4rem 1.5rem 3rem;gap:3rem;text-align:center;}
+    .hero-cta{justify-content:center;}.hero-stats{justify-content:center;}.hero-visual{order:-1;}
+    .section-wrap{padding:4rem 1.5rem;}
+    .lights-grid{grid-template-columns:1fr;}
+    .how-grid{grid-template-columns:1fr;gap:2.5rem;}
+    .guide-grid{grid-template-columns:1fr 1fr;}
+    .cta-section{padding:4rem 1.5rem;}
+    footer{padding:2rem 1.5rem;flex-direction:column;}
+  }
+  @media(max-width:600px){
+    .guide-grid{grid-template-columns:1fr;}
+    .products-grid{grid-template-columns:1fr;}
+    .lights-grid{grid-template-columns:1fr;}
+  }
+
+  /* PRÉOCCUPATIONS */
+  .preoc-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;margin-top:3rem;}
+  .preoc-card{background:var(--cream);border:1px solid var(--border-soft);border-radius:var(--radius);padding:1.8rem 1.5rem;cursor:pointer;transition:all 0.3s;text-align:center;position:relative;overflow:hidden;}
+  .preoc-card::before{content:'';position:absolute;bottom:0;left:0;right:0;height:3px;opacity:0;transition:opacity 0.3s;}
+  .preoc-card:hover{border-color:var(--border);box-shadow:var(--shadow);transform:translateY(-3px);}
+  .preoc-card:hover::before{opacity:1;}
+  .preoc-card.c1::before{background:linear-gradient(to right,#FF6B6B,#C084FC);}
+  .preoc-card.c2::before{background:linear-gradient(to right,#6BA3FF,#6EE7B7);}
+  .preoc-card.c3::before{background:linear-gradient(to right,#FFD166,#FF6B6B);}
+  .preoc-card.c4::before{background:linear-gradient(to right,#C084FC,#6BA3FF);}
+  .preoc-card.c5::before{background:linear-gradient(to right,#6EE7B7,#FFD166);}
+  .preoc-card.c6::before{background:linear-gradient(to right,#FF6B6B,#FFD166);}
+  .preoc-icon{font-size:2rem;margin-bottom:0.8rem;display:block;}
+  .preoc-card h3{font-family:'Cormorant Garamond',serif;font-size:1.1rem;margin-bottom:0.4rem;color:var(--text);}
+  .preoc-card p{font-size:0.78rem;color:var(--text-muted);line-height:1.5;margin-bottom:0.8rem;}
+  .preoc-produits{font-size:0.68rem;color:var(--gold);letter-spacing:0.08em;}
+
+  /* RÉSULTATS */
+  .resultats-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--border-soft);border:1px solid var(--border-soft);margin-top:3rem;border-radius:var(--radius);overflow:hidden;}
+  .resultat-item{background:var(--cream);padding:2.5rem 1.5rem;text-align:center;transition:background 0.3s;}
+  .resultat-item:hover{background:var(--gold-wash);}
+  .resultat-num{font-family:'Cormorant Garamond',serif;font-size:3rem;color:var(--gold);line-height:1;display:block;margin-bottom:0.3rem;}
+  .resultat-label{font-size:0.78rem;color:var(--text-mid);line-height:1.5;}
+  .resultat-delai{font-size:0.68rem;color:var(--text-muted);margin-top:0.4rem;letter-spacing:0.06em;text-transform:uppercase;}
+
+  /* ROUTINE */
+  .routine-steps{display:flex;align-items:flex-start;gap:0;margin-top:3rem;position:relative;}
+  .routine-steps::before{content:'';position:absolute;top:2.2rem;left:2.2rem;right:2.2rem;height:1px;background:linear-gradient(to right,var(--gold-pale),var(--gold),var(--gold-pale));z-index:0;}
+  .routine-step{flex:1;text-align:center;position:relative;z-index:1;padding:0 1rem;}
+  .routine-circle{width:44px;height:44px;border-radius:50%;background:var(--gold);color:#fff;font-family:'Cormorant Garamond',serif;font-size:1.3rem;display:flex;align-items:center;justify-content:center;margin:0 auto 1rem;box-shadow:0 4px 16px rgba(184,146,42,0.3);}
+  .routine-step h4{font-family:'Cormorant Garamond',serif;font-size:1rem;margin-bottom:0.3rem;color:var(--text);}
+  .routine-step p{font-size:0.78rem;color:var(--text-muted);line-height:1.5;}
+  .routine-step .routine-icon{font-size:1.5rem;display:block;margin-bottom:0.5rem;}
+
+
+  .preoc-img-wrap{width:100%;height:140px;overflow:hidden;border-radius:var(--radius);margin-bottom:1rem;}
+  .preoc-img{width:100%;height:100%;object-fit:cover;object-position:center;transition:transform 0.4s ease;}
+  .preoc-card:hover .preoc-img{transform:scale(1.05);}
+  .routine-img-wrap{width:100%;height:160px;overflow:hidden;border-radius:var(--radius);margin-bottom:0.8rem;}
+  .routine-img{width:100%;height:100%;object-fit:cover;object-position:center top;transition:transform 0.4s ease;}
+  .routine-step:hover .routine-img{transform:scale(1.05);}
+
+
+  /* BLOG ARTICLES */
+  .blog-section{background:var(--cream-2);border-top:1px solid var(--border-soft);border-bottom:1px solid var(--border-soft);}
+  .blog-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:2rem;margin-top:3rem;}
+  .article-card{background:var(--cream);border:1px solid var(--border-soft);border-radius:var(--radius);overflow:hidden;transition:all 0.4s;box-shadow:var(--shadow);}
+  .article-card:hover{border-color:var(--border);transform:translateY(-4px);box-shadow:var(--shadow-lg);}
+  .article-tag{font-size:0.65rem;letter-spacing:0.18em;text-transform:uppercase;color:var(--gold);padding:1.5rem 1.8rem 0.5rem;display:block;}
+  .article-title{font-family:'Cormorant Garamond',serif;font-size:1.4rem;font-weight:400;color:var(--text);padding:0 1.8rem 0.8rem;line-height:1.3;}
+  .article-intro{font-size:0.83rem;color:var(--text-muted);padding:0 1.8rem 1.2rem;line-height:1.7;}
+  .article-meta{font-size:0.7rem;color:var(--text-muted);padding:0 1.8rem;letter-spacing:0.06em;}
+  .article-divider{height:1px;background:var(--border-soft);margin:1.2rem 0;}
+  .article-body{padding:0 1.8rem 1.8rem;}
+  .article-body h3{font-family:'Cormorant Garamond',serif;font-size:1.1rem;color:var(--text);margin:1.2rem 0 0.5rem;}
+  .article-body p{font-size:0.83rem;color:var(--text-muted);line-height:1.75;margin-bottom:0.8rem;}
+  .article-body ul{padding-left:1.2rem;margin-bottom:0.8rem;}
+  .article-body ul li{font-size:0.83rem;color:var(--text-muted);line-height:1.75;margin-bottom:0.3rem;}
+  .article-cta{display:inline-flex;align-items:center;gap:0.5rem;color:var(--gold);font-size:0.78rem;font-weight:500;letter-spacing:0.08em;text-transform:uppercase;text-decoration:none;padding:0.7rem 1.8rem 1.5rem;transition:gap 0.3s;}
+  .article-cta:hover{gap:0.8rem;}
+  @media(max-width:900px){.blog-grid{grid-template-columns:1fr;}}
+
+
+  /* TÉMOIGNAGES */
+  .temoignages-section{background:var(--cream);border-top:1px solid var(--border-soft);}
+  .temoignages-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;margin-top:3rem;}
+  .temoignage-card{background:var(--cream-2);border:1px solid var(--border-soft);border-radius:var(--radius);padding:2rem;transition:all 0.3s;position:relative;}
+  .temoignage-card:hover{border-color:var(--border);box-shadow:var(--shadow);transform:translateY(-3px);}
+  .temoignage-stars{color:var(--gold);font-size:0.9rem;letter-spacing:2px;margin-bottom:1rem;}
+  .temoignage-text{font-size:0.88rem;color:var(--text-mid);line-height:1.75;font-style:italic;margin-bottom:1.2rem;}
+  .temoignage-text::before{content:'"';font-family:'Cormorant Garamond',serif;font-size:2rem;color:var(--gold);opacity:0.4;line-height:0;vertical-align:-0.6rem;margin-right:0.2rem;}
+  .temoignage-text::after{content:'"';font-family:'Cormorant Garamond',serif;font-size:2rem;color:var(--gold);opacity:0.4;line-height:0;vertical-align:-0.6rem;margin-left:0.2rem;}
+  .temoignage-author{display:flex;align-items:center;gap:0.8rem;padding-top:1rem;border-top:1px solid var(--border-soft);}
+  .temoignage-avatar{width:36px;height:36px;border-radius:50%;background:var(--gold-wash);border:1px solid var(--border);display:flex;align-items:center;justify-content:center;font-family:'Cormorant Garamond',serif;font-size:1rem;color:var(--gold);flex-shrink:0;}
+  .temoignage-name{font-size:0.8rem;color:var(--text);font-weight:500;}
+  .temoignage-product{font-size:0.7rem;color:var(--text-muted);letter-spacing:0.06em;}
+  .temoignage-badge{position:absolute;top:1rem;right:1rem;font-size:0.6rem;letter-spacing:0.1em;text-transform:uppercase;color:var(--gold);border:1px solid var(--border);padding:0.2rem 0.5rem;border-radius:100px;background:var(--gold-wash);}
+
+  /* TABLEAU COMPARATIF */
+  .comparatif-wrap{overflow-x:auto;margin-top:3rem;}
+  .comparatif-table{width:100%;border-collapse:collapse;min-width:700px;}
+  .comparatif-table th{background:var(--text);color:#fff;padding:1rem 1.2rem;font-family:'Cormorant Garamond',serif;font-size:1rem;font-weight:300;letter-spacing:0.06em;text-align:center;}
+  .comparatif-table th:first-child{text-align:left;background:var(--dark,#2C2416);}
+  .comparatif-table th.best{background:var(--gold);}
+  .comparatif-table td{padding:0.9rem 1.2rem;font-size:0.82rem;border-bottom:1px solid var(--border-soft);text-align:center;color:var(--text-mid);}
+  .comparatif-table td:first-child{text-align:left;font-weight:500;color:var(--text);background:var(--cream-2);}
+  .comparatif-table tr:hover td{background:var(--gold-wash);}
+  .comparatif-table tr:hover td:first-child{background:var(--gold-wash);}
+  .check{color:#047857;font-size:1rem;}
+  .cross{color:#DC2626;font-size:1rem;}
+  .comparatif-table .best-col{background:rgba(184,146,42,0.05);}
+  .comparatif-btn-row td{padding:1rem 1.2rem;border-bottom:none;}
+  .comparatif-note{font-size:0.75rem;color:var(--text-muted);margin-top:1rem;text-align:center;line-height:1.6;}
+
+  @media(max-width:900px){.temoignages-grid{grid-template-columns:1fr;}}
+
+
+
+  .article-page{max-width:760px;margin:0 auto;padding:9rem 2rem 5rem;}
+  .article-page-tag{font-size:0.68rem;letter-spacing:0.25em;text-transform:uppercase;color:var(--gold);margin-bottom:0.8rem;display:flex;align-items:center;gap:0.8rem;}
+  .article-page-tag::before{content:'';width:24px;height:1px;background:var(--gold);}
+  .article-page h1{font-family:'Cormorant Garamond',serif;font-size:clamp(2rem,4vw,3.2rem);font-weight:300;line-height:1.15;color:var(--text);margin-bottom:1rem;}
+  .article-page h1 em{font-style:italic;color:var(--gold);}
+  .article-page-meta{font-size:0.75rem;color:var(--text-muted);letter-spacing:0.06em;margin-bottom:2.5rem;padding-bottom:2rem;border-bottom:1px solid var(--border-soft);}
+  .article-content h2{font-family:'Cormorant Garamond',serif;font-size:1.6rem;font-weight:300;color:var(--text);margin:2.5rem 0 1rem;}
+  .article-content h2 em{font-style:italic;color:var(--gold);}
+  .article-content p{font-size:0.93rem;color:var(--text-muted);line-height:1.85;margin-bottom:1.2rem;}
+  .article-content ul{padding-left:1.4rem;margin-bottom:1.2rem;}
+  .article-content ul li{font-size:0.93rem;color:var(--text-muted);line-height:1.85;margin-bottom:0.4rem;}
+  .article-content strong{color:var(--text-mid);font-weight:500;}
+  .article-highlight{background:var(--gold-wash);border-left:3px solid var(--gold);padding:1.2rem 1.5rem;border-radius:0 var(--radius) var(--radius) 0;margin:2rem 0;font-size:0.93rem;color:var(--text-mid);line-height:1.75;}
+  .article-cta-box{background:var(--cream-2);border:1px solid var(--border);border-radius:var(--radius);padding:2rem;margin:2.5rem 0;text-align:center;}
+  .article-cta-box p{font-size:0.9rem;color:var(--text-muted);margin-bottom:1.2rem;}
+  .art-nav{display:flex;justify-content:space-between;gap:1rem;margin-top:3rem;padding-top:2rem;border-top:1px solid var(--border-soft);flex-wrap:wrap;}
+  .art-nav-btn{font-size:0.78rem;color:var(--gold);text-decoration:none;letter-spacing:0.06em;transition:opacity 0.3s;}
+  .art-nav-btn:hover{opacity:0.7;}
+  .art-nav-next{margin-left:auto;}
+  .back-link{display:inline-flex;align-items:center;gap:0.5rem;font-size:0.78rem;color:var(--text-muted);text-decoration:none;margin-bottom:2rem;transition:color 0.3s;}
+  .back-link:hover{color:var(--gold);}
+
+
+  /* NAV REFAIT */
+  nav{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;align-items:center;justify-content:space-between;padding:1.1rem 4rem;background:rgba(253,250,244,0.96);backdrop-filter:blur(14px);border-bottom:1px solid var(--border-soft);}
+  nav ul{display:flex;gap:2rem;list-style:none;margin:0;padding:0;}
+  nav ul li{margin:0;padding:0;}
+  nav ul a{color:var(--text-muted);text-decoration:none;font-size:0.74rem;letter-spacing:0.14em;text-transform:uppercase;transition:color 0.3s;padding-bottom:2px;}
+  nav ul a:hover{color:var(--gold);}
+  nav ul a.nav-active{color:var(--gold);border-bottom:1px solid var(--gold);}
+  .nav-mobile-btn{display:none;background:none;border:none;font-size:1.4rem;color:var(--text);cursor:pointer;padding:0.3rem;}
+  .nav-mobile-menu{display:none;position:fixed;top:64px;left:0;right:0;background:rgba(253,250,244,0.98);backdrop-filter:blur(12px);padding:0;border-bottom:1px solid var(--border-soft);z-index:99;list-style:none;margin:0;}
+  .nav-mobile-menu.open{display:block;}
+  .nav-mobile-menu li{margin:0;padding:0;border-bottom:1px solid var(--border-soft);}
+  .nav-mobile-menu a{display:block;padding:1rem 2rem;font-size:0.8rem;letter-spacing:0.12em;text-transform:uppercase;color:var(--text-muted);text-decoration:none;transition:all 0.2s;}
+  .nav-mobile-menu a:hover{color:var(--gold);background:var(--gold-wash);}
+  .nav-mobile-menu a.nav-active{color:var(--gold);}
+  @media(max-width:900px){
+    nav{padding:1rem 1.5rem;}
+    nav ul{display:none !important;}
+    .nav-mobile-btn{display:block;}
+  }
+
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="index.html" class="logo"><svg width="38" height="38" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg"><defs><radialGradient id="mgN" cx="50%" cy="38%" r="58%"><stop offset="0%" stop-color="#F5EDD4"/><stop offset="60%" stop-color="#E8DCC8"/><stop offset="100%" stop-color="#D4C8B0"/></radialGradient></defs><path d="M7 14 Q7 7 12 5.5 Q16.5 4 21 4 Q25.5 4 30 5.5 Q35 7 35 14 Q35.5 19 35 24 Q33.5 30 30.5 33.5 Q27.5 37 21 37 Q14.5 37 11.5 33.5 Q8.5 30 7 24 Q6.5 19 7 14Z" fill="url(#mgN)"/><path d="M7 14 Q7 7 12 5.5 Q16.5 4 21 4 Q25.5 4 30 5.5 Q35 7 35 14 Q35.5 19 35 24 Q33.5 30 30.5 33.5 Q27.5 37 21 37 Q14.5 37 11.5 33.5 Q8.5 30 7 24 Q6.5 19 7 14Z" fill="none" stroke="#B8922A" stroke-width="0.7" opacity="0.85"/><ellipse cx="15.5" cy="16.5" rx="4.5" ry="2.5" fill="#C8BCA8" stroke="#B8922A" stroke-width="0.5" opacity="0.8"/><ellipse cx="26.5" cy="16.5" rx="4.5" ry="2.5" fill="#C8BCA8" stroke="#B8922A" stroke-width="0.5" opacity="0.8"/><circle cx="10" cy="10" r="1.2" fill="#FF3333"><animate attributeName="opacity" values="1;0.2;1" dur="2.1s" repeatCount="indefinite"/></circle><circle cx="21" cy="6" r="1.2" fill="#FF3333"><animate attributeName="opacity" values="0.9;0.2;0.9" dur="1.6s" repeatCount="indefinite"/></circle><circle cx="32" cy="10" r="1.2" fill="#FF3333"><animate attributeName="opacity" values="1;0.3;1" dur="2.2s" repeatCount="indefinite"/></circle><circle cx="8" cy="20" r="1.2" fill="#FF3333"><animate attributeName="opacity" values="1;0.2;1" dur="2.4s" repeatCount="indefinite"/></circle><circle cx="34" cy="20" r="1.2" fill="#FF3333"><animate attributeName="opacity" values="0.9;0.2;0.9" dur="1.8s" repeatCount="indefinite"/></circle><circle cx="21" cy="31" r="1.2" fill="#FF3333"><animate attributeName="opacity" values="0.9;0.2;0.9" dur="1.9s" repeatCount="indefinite"/></circle><path d="M16.5 22 L16.5 28 L20 28" stroke="#B8922A" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.98"/><path d="M25.5 22.5 Q25.5 21 23.5 21 Q21 21 21 23.5 Q21 25.5 23.5 26.2 Q26 27 26 29 Q26 31 23.5 31 Q21 31 21 29" stroke="#B8922A" stroke-width="1.3" stroke-linecap="round" fill="none" opacity="0.98"/></svg>Lumi<span>Skin</span></a>
+  <ul>
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="produits.html">Produits</a></li>
+      <li><a href="comparatif.html">Comparatif</a></li>
+      <li><a href="blog.html" class="nav-active">Blog</a></li>
+      <li><a href="faq.html">FAQ</a></li>
+  </ul>
+  <button class="nav-mobile-btn" onclick="document.getElementById('mobileMenu').classList.toggle('open')" aria-label="Menu">☰</button>
+</nav>
+<ul class="nav-mobile-menu" id="mobileMenu">
+    <li><a href="index.html">Accueil</a></li>
+    <li><a href="produits.html">Produits</a></li>
+    <li><a href="comparatif.html">Comparatif</a></li>
+    <li><a href="blog.html" class="nav-active">Blog</a></li>
+    <li><a href="faq.html">FAQ</a></li>
+</ul><div class="article-page">
+  <a href="blog.html" class="back-link">← Retour aux articles</a>
+  <div class="article-page-tag">Acné & Imperfections</div>
+  <h1>Masque LED visage acné :<br><em>ça marche vraiment ?</em></h1>
+  <div class="article-page-meta">Lecture 5 min · Juillet 2026</div>
+
+  <div class="article-content">
+
+    <p>L'acné touche non seulement les adolescents mais aussi de nombreux adultes. Face aux traitements classiques parfois agressifs, la lumière LED bleue et rouge se présente comme une alternative douce et prometteuse. Mais est-elle vraiment efficace ? On fait le point.</p>
+
+    <h2>Comment <em>fonctionne</em> la lumière LED contre l'acné ?</h2>
+    <p>Deux longueurs d'onde sont utilisées dans le traitement de l'acné par luminothérapie :</p>
+    <ul>
+      <li><strong>Lumière bleue (415 nm)</strong> : détruit les bactéries Cutibacterium acnes (anciennement Propionibacterium acnes) responsables des boutons. Ces bactéries produisent des porphyrines qui, activées par la lumière bleue, génèrent un oxygène toxique pour elles.</li>
+      <li><strong>Lumière rouge (630 nm)</strong> : réduit l'inflammation et accélère la cicatrisation des lésions existantes. Elle agit en synergie avec la lumière bleue pour des résultats optimaux.</li>
+    </ul>
+
+    <div class="article-highlight">💡 <strong>Ce que dit la science :</strong> Une étude publiée dans le Journal of Cosmetic and Laser Therapy montre une réduction de 76% des lésions d'acné après 12 semaines de traitement combiné lumière bleue + rouge, utilisé 3 fois par semaine.</div>
+
+    <h2>Acné légère, modérée ou sévère — <em>pour qui ça marche ?</em></h2>
+    <p>La luminothérapie LED est particulièrement efficace sur :</p>
+    <ul>
+      <li><strong>Acné légère à modérée</strong> : points noirs, comédons ouverts, papules et pustules peu nombreuses</li>
+      <li><strong>Acné hormonale adulte</strong> : les poussées cycliques répondent bien au traitement régulier</li>
+      <li><strong>Peau sensible</strong> : alternative douce aux acides et rétinoïdes irritants</li>
+    </ul>
+    <p>En revanche, la LED sera insuffisante pour une <strong>acné sévère kystique ou nodulaire</strong> — consultez un dermatologue dans ce cas.</p>
+
+    <h2>Quels masques LED <em>pour l'acné</em> dans notre sélection ?</h2>
+    <p>Tous les masques de notre sélection proposent la lumière bleue anti-acné, mais voici nos recommandations spécifiques :</p>
+    <ul>
+      <li><strong>INIA Glow 2</strong> : mode acné dédié combinant bleu + rouge + infrarouge. Notre meilleur choix pour traiter l'acné tout en prévenant le vieillissement cutané.</li>
+      <li><strong>Shark CryoGlow</strong> : lumière bleue haute intensité à 128 mW/cm² + effet anti-inflammatoire de la cryothérapie. Excellent pour les peaux enflammées.</li>
+      <li><strong>Nanoleaf</strong> : mode acné dédié, rapport qualité/prix imbattable pour débuter le traitement LED.</li>
+    </ul>
+
+    <h2>Protocole recommandé — <em>comment utiliser la LED contre l'acné</em></h2>
+    <ul>
+      <li><strong>Fréquence</strong> : 3 à 5 séances par semaine</li>
+      <li><strong>Durée</strong> : 10 à 15 minutes par séance</li>
+      <li><strong>Mode</strong> : commencez par le mode bleu seul les 2 premières semaines, puis alternez avec le mode rouge</li>
+      <li><strong>Soins associés</strong> : après la séance, appliquez un sérum à la niacinamide ou à l'acide azélaïque — la peau est plus réceptive</li>
+      <li><strong>À éviter</strong> : ne pas utiliser d'acides concentrés (AHA/BHA) le même jour</li>
+    </ul>
+
+    <div class="article-highlight">⚠️ <strong>Important :</strong> Portez toujours les lunettes de protection fournies avec votre masque lors de l'utilisation de la lumière bleue. Une exposition prolongée de la lumière bleue sans protection peut être nocive pour les yeux.</div>
+
+    <h2>Résultats attendus — <em>semaine par semaine</em></h2>
+    <ul>
+      <li><strong>Semaine 1-2</strong> : légère réduction des rougeurs, peau moins enflammée</li>
+      <li><strong>Semaine 3-4</strong> : diminution visible des boutons actifs, moins de nouvelles poussées</li>
+      <li><strong>Semaine 6-8</strong> : réduction significative des lésions, teint plus uniforme</li>
+      <li><strong>Semaine 10-12</strong> : résultats optimaux, peau sensiblement améliorée</li>
+    </ul>
+
+    <div class="article-highlight">✅ <strong>Notre verdict :</strong> La lumière LED est une solution efficace et sans effets secondaires pour l'acné légère à modérée. Elle ne remplace pas un traitement médical pour les cas sévères, mais constitue un excellent complément à votre routine anti-acné quotidienne.</div>
+
+  </div>
+
+  <div class="article-cta-box">
+    <p>Prêt(e) à traiter votre acné avec la luminothérapie ? Découvrez notre sélection des masques LED avec mode anti-acné.</p>
+    <a href="index.html#produits" class="btn-primary">Voir la sélection →</a>
+  </div>
+
+  <div class="art-nav">
+    <a href="resultats.html" class="art-nav-btn">← Avant après : résultats réels</a>
+    <a href="blog.html" class="art-nav-btn art-nav-next">Tous les articles →</a>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <a href="index.html" class="logo">
+    <svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <radialGradient id="mg" cx="50%" cy="38%" r="58%">
+          <stop offset="0%" stop-color="#F5EDD4"/>
+          <stop offset="60%" stop-color="#E8DCC8"/>
+          <stop offset="100%" stop-color="#D4C8B0"/>
+        </radialGradient>
+      </defs>
+      <!-- Masque forme -->
+      <path d="M7 14 Q7 7 12 5.5 Q16.5 4 21 4 Q25.5 4 30 5.5 Q35 7 35 14 Q35.5 19 35 24 Q33.5 30 30.5 33.5 Q27.5 37 21 37 Q14.5 37 11.5 33.5 Q8.5 30 7 24 Q6.5 19 7 14Z" fill="url(#mg)"/>
+      <path d="M7 14 Q7 7 12 5.5 Q16.5 4 21 4 Q25.5 4 30 5.5 Q35 7 35 14 Q35.5 19 35 24 Q33.5 30 30.5 33.5 Q27.5 37 21 37 Q14.5 37 11.5 33.5 Q8.5 30 7 24 Q6.5 19 7 14Z" fill="none" stroke="#B8922A" stroke-width="0.7" opacity="0.85"/>
+      <!-- Yeux -->
+      <ellipse cx="15.5" cy="16.5" rx="4.5" ry="2.5" fill="#C8BCA8" stroke="#B8922A" stroke-width="0.5" opacity="0.8"/>
+      <ellipse cx="26.5" cy="16.5" rx="4.5" ry="2.5" fill="#C8BCA8" stroke="#B8922A" stroke-width="0.5" opacity="0.8"/>
+      <!-- Points LED rouges -->
+      <circle cx="10" cy="10" r="1.2" fill="#FF3333"><animate attributeName="opacity" values="1;0.2;1" dur="2.1s" repeatCount="indefinite"/></circle>
+      <circle cx="14" cy="7.5" r="1.2" fill="#FF3333"><animate attributeName="opacity" values="0.8;0.2;0.8" dur="1.8s" repeatCount="indefinite"/></circle>
+      <circle cx="18" cy="6.5" r="1.2" fill="#FF3333"><animate attributeName="opacity" values="1;0.3;1" dur="2.3s" repeatCount="indefinite"/></circle>
+      <circle cx="21" cy="6" r="1.2" fill="#FF3333"><animate attributeName="opacity" values="0.9;0.2;0.9" dur="1.6s" repeatCount="indefinite"/></circle>
+      <circle cx="24" cy="6.5" r="1.2" fill="#FF3333"><animate attributeName="opacity" values="1;0.2;1" dur="2.0s" repeatCount="indefinite"/></circle>
+      <circle cx="28" cy="7.5" r="1.2" fill="#FF3333"><animate attributeName="opacity" values="0.8;0.2;0.8" dur="1.9s" repeatCount="indefinite"/></circle>
+      <circle cx="32" cy="10" r="1.2" fill="#FF3333"><animate attributeName="opacity" values="1;0.3;1" dur="2.2s" repeatCount="indefinite"/></circle>
+      <circle cx="8" cy="15" r="1.2" fill="#FF3333"><animate attributeName="opacity" values="0.9;0.2;0.9" dur="1.7s" repeatCount="indefinite"/></circle>
+      <circle cx="8" cy="20" r="1.2" fill="#FF3333"><animate attributeName="opacity" values="1;0.2;1" dur="2.4s" repeatCount="indefinite"/></circle>
+      <circle cx="8.5" cy="25" r="1.2" fill="#FF3333"><animate attributeName="opacity" values="0.8;0.2;0.8" dur="2.0s" repeatCount="indefinite"/></circle>
+      <circle cx="34" cy="15" r="1.2" fill="#FF3333"><animate attributeName="opacity" values="1;0.3;1" dur="2.1s" repeatCount="indefinite"/></circle>
+      <circle cx="34" cy="20" r="1.2" fill="#FF3333"><animate attributeName="opacity" values="0.9;0.2;0.9" dur="1.8s" repeatCount="indefinite"/></circle>
+      <circle cx="33.5" cy="25" r="1.2" fill="#FF3333"><animate attributeName="opacity" values="1;0.2;1" dur="2.3s" repeatCount="indefinite"/></circle>
+      <circle cx="10" cy="22" r="1.2" fill="#FF3333"><animate attributeName="opacity" values="0.8;0.2;0.8" dur="1.6s" repeatCount="indefinite"/></circle>
+      <circle cx="13" cy="28" r="1.2" fill="#FF3333"><animate attributeName="opacity" values="1;0.3;1" dur="2.0s" repeatCount="indefinite"/></circle>
+      <circle cx="21" cy="31" r="1.2" fill="#FF3333"><animate attributeName="opacity" values="0.9;0.2;0.9" dur="1.9s" repeatCount="indefinite"/></circle>
+      <circle cx="29" cy="28" r="1.2" fill="#FF3333"><animate attributeName="opacity" values="1;0.2;1" dur="2.2s" repeatCount="indefinite"/></circle>
+      <circle cx="32" cy="22" r="1.2" fill="#FF3333"><animate attributeName="opacity" values="0.8;0.2;0.8" dur="1.7s" repeatCount="indefinite"/></circle>
+      <!-- LS dorés zone nez -->
+      <path d="M16.5 22 L16.5 28 L20 28" stroke="#B8922A" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.98"/>
+      <path d="M25.5 22.5 Q25.5 21 23.5 21 Q21 21 21 23.5 Q21 25.5 23.5 26.2 Q26 27 26 29 Q26 31 23.5 31 Q21 31 21 29" stroke="#B8922A" stroke-width="1.3" stroke-linecap="round" fill="none" opacity="0.98"/>
+    </svg>
+    Lumi<span>Skin</span>
+  </a>
+  <div class="footer-disclaimer"><strong style="color:var(--text-mid);">Liens d'affiliation Amazon</strong> — Ce site contient des liens affiliés. Une commission peut être perçue sur les achats effectués.</div>
+  <nav>
+  <a href="index.html" class="logo">
+    <svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg"><defs><radialGradient id="mg" cx="50%" cy="38%" r="58%"><stop offset="0%" stop-color="#F5EDD4"/><stop offset="60%" stop-color="#E8DCC8"/><stop offset="100%" stop-color="#D4C8B0"/></radialGradient></defs><path d="M7 14 Q7 7 12 5.5 Q16.5 4 21 4 Q25.5 4 30 5.5 Q35 7 35 14 Q35.5 19 35 24 Q33.5 30 30.5 33.5 Q27.5 37 21 37 Q14.5 37 11.5 33.5 Q8.5 30 7 24 Q6.5 19 7 14Z" fill="url(#mg)"/><path d="M7 14 Q7 7 12 5.5 Q16.5 4 21 4 Q25.5 4 30 5.5 Q35 7 35 14 Q35.5 19 35 24 Q33.5 30 30.5 33.5 Q27.5 37 21 37 Q14.5 37 11.5 33.5 Q8.5 30 7 24 Q6.5 19 7 14Z" fill="none" stroke="#B8922A" stroke-width="0.7" opacity="0.85"/><ellipse cx="15.5" cy="16.5" rx="4.5" ry="2.5" fill="#C8BCA8" stroke="#B8922A" stroke-width="0.5" opacity="0.8"/><ellipse cx="26.5" cy="16.5" rx="4.5" ry="2.5" fill="#C8BCA8" stroke="#B8922A" stroke-width="0.5" opacity="0.8"/><circle cx="10" cy="10" r="1.2" fill="#FF3333"><animate attributeName="opacity" values="1;0.2;1" dur="2.1s" repeatCount="indefinite"/></circle><circle cx="14" cy="7.5" r="1.2" fill="#FF3333"><animate attributeName="opacity" values="0.8;0.2;0.8" dur="1.8s" repeatCount="indefinite"/></circle><circle cx="18" cy="6.5" r="1.2" fill="#FF3333"><animate attributeName="opacity" values="1;0.3;1" dur="2.3s" repeatCount="indefinite"/></circle><circle cx="21" cy="6" r="1.2" fill="#FF3333"><animate attributeName="opacity" values="0.9;0.2;0.9" dur="1.6s" repeatCount="indefinite"/></circle><circle cx="24" cy="6.5" r="1.2" fill="#FF3333"><animate attributeName="opacity" values="1;0.2;1" dur="2.0s" repeatCount="indefinite"/></circle><circle cx="28" cy="7.5" r="1.2" fill="#FF3333"><animate attributeName="opacity" values="0.8;0.2;0.8" dur="1.9s" repeatCount="indefinite"/></circle><circle cx="32" cy="10" r="1.2" fill="#FF3333"><animate attributeName="opacity" values="1;0.3;1" dur="2.2s" repeatCount="indefinite"/></circle><circle cx="8" cy="15" r="1.2" fill="#FF3333"><animate attributeName="opacity" values="0.9;0.2;0.9" dur="1.7s" repeatCount="indefinite"/></circle><circle cx="8" cy="20" r="1.2" fill="#FF3333"><animate attributeName="opacity" values="1;0.2;1" dur="2.4s" repeatCount="indefinite"/></circle><circle cx="8.5" cy="25" r="1.2" fill="#FF3333"><animate attributeName="opacity" values="0.8;0.2;0.8" dur="2.0s" repeatCount="indefinite"/></circle><circle cx="34" cy="15" r="1.2" fill="#FF3333"><animate attributeName="opacity" values="1;0.3;1" dur="2.1s" repeatCount="indefinite"/></circle><circle cx="34" cy="20" r="1.2" fill="#FF3333"><animate attributeName="opacity" values="0.9;0.2;0.9" dur="1.8s" repeatCount="indefinite"/></circle><circle cx="33.5" cy="25" r="1.2" fill="#FF3333"><animate attributeName="opacity" values="1;0.2;1" dur="2.3s" repeatCount="indefinite"/></circle><circle cx="10" cy="22" r="1.2" fill="#FF3333"><animate attributeName="opacity" values="0.8;0.2;0.8" dur="1.6s" repeatCount="indefinite"/></circle><circle cx="13" cy="28" r="1.2" fill="#FF3333"><animate attributeName="opacity" values="1;0.3;1" dur="2.0s" repeatCount="indefinite"/></circle><circle cx="21" cy="31" r="1.2" fill="#FF3333"><animate attributeName="opacity" values="0.9;0.2;0.9" dur="1.9s" repeatCount="indefinite"/></circle><circle cx="29" cy="28" r="1.2" fill="#FF3333"><animate attributeName="opacity" values="1;0.2;1" dur="2.2s" repeatCount="indefinite"/></circle><circle cx="32" cy="22" r="1.2" fill="#FF3333"><animate attributeName="opacity" values="0.8;0.2;0.8" dur="1.7s" repeatCount="indefinite"/></circle><path d="M16.5 22 L16.5 28 L20 28" stroke="#B8922A" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.98"/><path d="M25.5 22.5 Q25.5 21 23.5 21 Q21 21 21 23.5 Q21 25.5 23.5 26.2 Q26 27 26 29 Q26 31 23.5 31 Q21 31 21 29" stroke="#B8922A" stroke-width="1.3" stroke-linecap="round" fill="none" opacity="0.98"/></svg>
+    Lumi<span>Skin</span>
+  </a>
+  <ul>
+    <li><a href="index.html">Accueil</a></li>
+    <li><a href="produits.html">Produits</a></li>
+    <li><a href="comparatif.html">Comparatif</a></li>
+    <li><a href="blog.html" class="nav-active">Blog</a></li>
+    <li><a href="faq.html">FAQ</a></li>
+  </ul>
+  <button class="nav-mobile-btn" onclick="document.querySelector('.nav-mobile-menu').classList.toggle('open')">☰</button>
+  <div class="nav-mobile-menu">
+    <li><a href="index.html">Accueil</a></li>
+    <li><a href="produits.html">Produits</a></li>
+    <li><a href="comparatif.html">Comparatif</a></li>
+    <li><a href="blog.html" class="nav-active">Blog</a></li>
+    <li><a href="faq.html">FAQ</a></li>
+  </div>
+</nav>
+</footer>
+
+</body>
+</html>
