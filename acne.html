@@ -4,9 +4,9 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="robots" content="index, follow">
-<link rel="canonical" href="https://masques-led-visage.fr/blog.html"/>
-<title>Blog — Guide Masque LED Visage | LumiSkin</title>
-<meta name="description" content="Guides, comparatifs et conseils d'experts sur les masques LED visage. Tout savoir pour choisir et utiliser votre masque LED.">
+<link rel="canonical" href="https://masques-led-visage.fr/acne.html"/>
+<title>Masque LED visage acné : ça marche vraiment ? | LumiSkin</title>
+<meta name="description" content="La lumière LED bleue et rouge est-elle efficace contre l'acné ? Guide scientifique complet avec protocole d'utilisation et résultats attendus semaine par semaine.">
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
 <style>
 
@@ -265,22 +265,63 @@
   @media(max-width:900px){.blog-grid{grid-template-columns:1fr;}}
 
 
-  .blog-hero { background:var(--cream-2); border-bottom:1px solid var(--border-soft); padding:8rem 4rem 4rem; text-align:center; }
-  .blog-hero h1 { font-family:'Cormorant Garamond',serif; font-size:clamp(2.5rem,5vw,4rem); font-weight:300; color:var(--text); margin-bottom:1rem; }
-  .blog-hero h1 em { font-style:italic; color:var(--gold); }
-  .blog-hero p { color:var(--text-muted); max-width:500px; margin:0 auto; font-size:0.95rem; line-height:1.8; }
-  .blog-list { max-width:900px; margin:0 auto; padding:5rem 2rem; }
-  .blog-post { display:grid; grid-template-columns:1fr 2fr; gap:2.5rem; padding:3rem 0; border-bottom:1px solid var(--border-soft); transition:all 0.3s; align-items:start; }
-  .blog-post:hover { padding-left:0.5rem; }
-  .blog-post-num { font-family:'Cormorant Garamond',serif; font-size:3.5rem; color:var(--gold-pale); line-height:1; transition:color 0.3s; }
-  .blog-post:hover .blog-post-num { color:var(--gold); }
-  .blog-post-tag { font-size:0.65rem; letter-spacing:0.2em; text-transform:uppercase; color:var(--gold); margin-bottom:0.5rem; }
-  .blog-post h2 { font-family:'Cormorant Garamond',serif; font-size:1.5rem; font-weight:300; color:var(--text); margin-bottom:0.7rem; line-height:1.3; }
-  .blog-post p { font-size:0.85rem; color:var(--text-muted); line-height:1.7; margin-bottom:1rem; }
-  .blog-post-meta { font-size:0.72rem; color:var(--text-muted); margin-bottom:1rem; }
-  .read-more { display:inline-flex; align-items:center; gap:0.5rem; color:var(--gold); font-size:0.78rem; font-weight:500; letter-spacing:0.08em; text-transform:uppercase; text-decoration:none; transition:gap 0.3s; }
-  .read-more:hover { gap:0.8rem; }
-  @media(max-width:600px){ .blog-post{grid-template-columns:1fr;} .blog-hero{padding:7rem 1.5rem 3rem;} .blog-list{padding:3rem 1.5rem;} }
+  /* TÉMOIGNAGES */
+  .temoignages-section{background:var(--cream);border-top:1px solid var(--border-soft);}
+  .temoignages-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;margin-top:3rem;}
+  .temoignage-card{background:var(--cream-2);border:1px solid var(--border-soft);border-radius:var(--radius);padding:2rem;transition:all 0.3s;position:relative;}
+  .temoignage-card:hover{border-color:var(--border);box-shadow:var(--shadow);transform:translateY(-3px);}
+  .temoignage-stars{color:var(--gold);font-size:0.9rem;letter-spacing:2px;margin-bottom:1rem;}
+  .temoignage-text{font-size:0.88rem;color:var(--text-mid);line-height:1.75;font-style:italic;margin-bottom:1.2rem;}
+  .temoignage-text::before{content:'"';font-family:'Cormorant Garamond',serif;font-size:2rem;color:var(--gold);opacity:0.4;line-height:0;vertical-align:-0.6rem;margin-right:0.2rem;}
+  .temoignage-text::after{content:'"';font-family:'Cormorant Garamond',serif;font-size:2rem;color:var(--gold);opacity:0.4;line-height:0;vertical-align:-0.6rem;margin-left:0.2rem;}
+  .temoignage-author{display:flex;align-items:center;gap:0.8rem;padding-top:1rem;border-top:1px solid var(--border-soft);}
+  .temoignage-avatar{width:36px;height:36px;border-radius:50%;background:var(--gold-wash);border:1px solid var(--border);display:flex;align-items:center;justify-content:center;font-family:'Cormorant Garamond',serif;font-size:1rem;color:var(--gold);flex-shrink:0;}
+  .temoignage-name{font-size:0.8rem;color:var(--text);font-weight:500;}
+  .temoignage-product{font-size:0.7rem;color:var(--text-muted);letter-spacing:0.06em;}
+  .temoignage-badge{position:absolute;top:1rem;right:1rem;font-size:0.6rem;letter-spacing:0.1em;text-transform:uppercase;color:var(--gold);border:1px solid var(--border);padding:0.2rem 0.5rem;border-radius:100px;background:var(--gold-wash);}
+
+  /* TABLEAU COMPARATIF */
+  .comparatif-wrap{overflow-x:auto;margin-top:3rem;}
+  .comparatif-table{width:100%;border-collapse:collapse;min-width:700px;}
+  .comparatif-table th{background:var(--text);color:#fff;padding:1rem 1.2rem;font-family:'Cormorant Garamond',serif;font-size:1rem;font-weight:300;letter-spacing:0.06em;text-align:center;}
+  .comparatif-table th:first-child{text-align:left;background:var(--dark,#2C2416);}
+  .comparatif-table th.best{background:var(--gold);}
+  .comparatif-table td{padding:0.9rem 1.2rem;font-size:0.82rem;border-bottom:1px solid var(--border-soft);text-align:center;color:var(--text-mid);}
+  .comparatif-table td:first-child{text-align:left;font-weight:500;color:var(--text);background:var(--cream-2);}
+  .comparatif-table tr:hover td{background:var(--gold-wash);}
+  .comparatif-table tr:hover td:first-child{background:var(--gold-wash);}
+  .check{color:#047857;font-size:1rem;}
+  .cross{color:#DC2626;font-size:1rem;}
+  .comparatif-table .best-col{background:rgba(184,146,42,0.05);}
+  .comparatif-btn-row td{padding:1rem 1.2rem;border-bottom:none;}
+  .comparatif-note{font-size:0.75rem;color:var(--text-muted);margin-top:1rem;text-align:center;line-height:1.6;}
+
+  @media(max-width:900px){.temoignages-grid{grid-template-columns:1fr;}}
+
+
+
+  .article-page{max-width:760px;margin:0 auto;padding:9rem 2rem 5rem;}
+  .article-page-tag{font-size:0.68rem;letter-spacing:0.25em;text-transform:uppercase;color:var(--gold);margin-bottom:0.8rem;display:flex;align-items:center;gap:0.8rem;}
+  .article-page-tag::before{content:'';width:24px;height:1px;background:var(--gold);}
+  .article-page h1{font-family:'Cormorant Garamond',serif;font-size:clamp(2rem,4vw,3.2rem);font-weight:300;line-height:1.15;color:var(--text);margin-bottom:1rem;}
+  .article-page h1 em{font-style:italic;color:var(--gold);}
+  .article-page-meta{font-size:0.75rem;color:var(--text-muted);letter-spacing:0.06em;margin-bottom:2.5rem;padding-bottom:2rem;border-bottom:1px solid var(--border-soft);}
+  .article-content h2{font-family:'Cormorant Garamond',serif;font-size:1.6rem;font-weight:300;color:var(--text);margin:2.5rem 0 1rem;}
+  .article-content h2 em{font-style:italic;color:var(--gold);}
+  .article-content p{font-size:0.93rem;color:var(--text-muted);line-height:1.85;margin-bottom:1.2rem;}
+  .article-content ul{padding-left:1.4rem;margin-bottom:1.2rem;}
+  .article-content ul li{font-size:0.93rem;color:var(--text-muted);line-height:1.85;margin-bottom:0.4rem;}
+  .article-content strong{color:var(--text-mid);font-weight:500;}
+  .article-highlight{background:var(--gold-wash);border-left:3px solid var(--gold);padding:1.2rem 1.5rem;border-radius:0 var(--radius) var(--radius) 0;margin:2rem 0;font-size:0.93rem;color:var(--text-mid);line-height:1.75;}
+  .article-cta-box{background:var(--cream-2);border:1px solid var(--border);border-radius:var(--radius);padding:2rem;margin:2.5rem 0;text-align:center;}
+  .article-cta-box p{font-size:0.9rem;color:var(--text-muted);margin-bottom:1.2rem;}
+  .art-nav{display:flex;justify-content:space-between;gap:1rem;margin-top:3rem;padding-top:2rem;border-top:1px solid var(--border-soft);flex-wrap:wrap;}
+  .art-nav-btn{font-size:0.78rem;color:var(--gold);text-decoration:none;letter-spacing:0.06em;transition:opacity 0.3s;}
+  .art-nav-btn:hover{opacity:0.7;}
+  .art-nav-next{margin-left:auto;}
+  .back-link{display:inline-flex;align-items:center;gap:0.5rem;font-size:0.78rem;color:var(--text-muted);text-decoration:none;margin-bottom:2rem;transition:color 0.3s;}
+  .back-link:hover{color:var(--gold);}
+
 
   /* NAV REFAIT */
   nav{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;align-items:center;justify-content:space-between;padding:1.1rem 4rem;background:rgba(253,250,244,0.96);backdrop-filter:blur(14px);border-bottom:1px solid var(--border-soft);}
@@ -306,7 +347,6 @@
 </head>
 <body>
 
-<!-- NAV -->
 <nav>
   <a href="index.html" class="logo"><svg width="38" height="38" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg"><defs><radialGradient id="mgN" cx="50%" cy="38%" r="58%"><stop offset="0%" stop-color="#F5EDD4"/><stop offset="60%" stop-color="#E8DCC8"/><stop offset="100%" stop-color="#D4C8B0"/></radialGradient></defs><path d="M7 14 Q7 7 12 5.5 Q16.5 4 21 4 Q25.5 4 30 5.5 Q35 7 35 14 Q35.5 19 35 24 Q33.5 30 30.5 33.5 Q27.5 37 21 37 Q14.5 37 11.5 33.5 Q8.5 30 7 24 Q6.5 19 7 14Z" fill="url(#mgN)"/><path d="M7 14 Q7 7 12 5.5 Q16.5 4 21 4 Q25.5 4 30 5.5 Q35 7 35 14 Q35.5 19 35 24 Q33.5 30 30.5 33.5 Q27.5 37 21 37 Q14.5 37 11.5 33.5 Q8.5 30 7 24 Q6.5 19 7 14Z" fill="none" stroke="#B8922A" stroke-width="0.7" opacity="0.85"/><ellipse cx="15.5" cy="16.5" rx="4.5" ry="2.5" fill="#C8BCA8" stroke="#B8922A" stroke-width="0.5" opacity="0.8"/><ellipse cx="26.5" cy="16.5" rx="4.5" ry="2.5" fill="#C8BCA8" stroke="#B8922A" stroke-width="0.5" opacity="0.8"/><circle cx="10" cy="10" r="1.2" fill="#FF3333"><animate attributeName="opacity" values="1;0.2;1" dur="2.1s" repeatCount="indefinite"/></circle><circle cx="21" cy="6" r="1.2" fill="#FF3333"><animate attributeName="opacity" values="0.9;0.2;0.9" dur="1.6s" repeatCount="indefinite"/></circle><circle cx="32" cy="10" r="1.2" fill="#FF3333"><animate attributeName="opacity" values="1;0.3;1" dur="2.2s" repeatCount="indefinite"/></circle><circle cx="8" cy="20" r="1.2" fill="#FF3333"><animate attributeName="opacity" values="1;0.2;1" dur="2.4s" repeatCount="indefinite"/></circle><circle cx="34" cy="20" r="1.2" fill="#FF3333"><animate attributeName="opacity" values="0.9;0.2;0.9" dur="1.8s" repeatCount="indefinite"/></circle><circle cx="21" cy="31" r="1.2" fill="#FF3333"><animate attributeName="opacity" values="0.9;0.2;0.9" dur="1.9s" repeatCount="indefinite"/></circle><path d="M16.5 22 L16.5 28 L20 28" stroke="#B8922A" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.98"/><path d="M25.5 22.5 Q25.5 21 23.5 21 Q21 21 21 23.5 Q21 25.5 23.5 26.2 Q26 27 26 29 Q26 31 23.5 31 Q21 31 21 29" stroke="#B8922A" stroke-width="1.3" stroke-linecap="round" fill="none" opacity="0.98"/></svg>Lumi<span>Skin</span></a>
   <ul>
@@ -324,89 +364,74 @@
     <li><a href="comparatif.html">Comparatif</a></li>
     <li><a href="blog.html" class="nav-active">Blog</a></li>
     <li><a href="faq.html">FAQ</a></li>
-</ul><div class="blog-hero">
-  <div class="section-label" style="justify-content:center;display:flex;align-items:center;gap:0.8rem;margin-bottom:0.8rem;"><span style="width:24px;height:1px;background:var(--gold);display:block;"></span>Guides & Conseils</div>
-  <h1>Tout savoir sur les<br><em>masques LED visage</em></h1>
-  <p>Guides d'experts, comparatifs et conseils pratiques pour choisir et utiliser votre masque LED en toute confiance.</p>
-</div>
+</ul><div class="article-page">
+  <a href="blog.html" class="back-link">← Retour aux articles</a>
+  <div class="article-page-tag">Acné & Imperfections</div>
+  <h1>Masque LED visage acné :<br><em>ça marche vraiment ?</em></h1>
+  <div class="article-page-meta">Lecture 5 min · Juillet 2026</div>
 
-<div class="blog-list">
+  <div class="article-content">
 
-  <div class="blog-post reveal">
-    <div class="blog-post-num">01</div>
-    <div>
-      <div class="blog-post-tag">Résultats & Témoignages</div>
-      <h2>Masque LED visage avant après : résultats réels semaine par semaine</h2>
-      <div class="blog-post-meta">Lecture 5 min · Juillet 2026</div>
-      <p>Les photos "avant/après" fleurissent sur les réseaux. Mais qu'en est-il vraiment ? On décrypte les résultats réels basés sur les études cliniques et les avis vérifiés Amazon, semaine par semaine.</p>
-      <a href="resultats.html" class="read-more">Lire l'article →</a>
-    </div>
+    <p>L'acné touche non seulement les adolescents mais aussi de nombreux adultes. Face aux traitements classiques parfois agressifs, la lumière LED bleue et rouge se présente comme une alternative douce et prometteuse. Mais est-elle vraiment efficace ? On fait le point.</p>
+
+    <h2>Comment <em>fonctionne</em> la lumière LED contre l'acné ?</h2>
+    <p>Deux longueurs d'onde sont utilisées dans le traitement de l'acné par luminothérapie :</p>
+    <ul>
+      <li><strong>Lumière bleue (415 nm)</strong> : détruit les bactéries Cutibacterium acnes (anciennement Propionibacterium acnes) responsables des boutons. Ces bactéries produisent des porphyrines qui, activées par la lumière bleue, génèrent un oxygène toxique pour elles.</li>
+      <li><strong>Lumière rouge (630 nm)</strong> : réduit l'inflammation et accélère la cicatrisation des lésions existantes. Elle agit en synergie avec la lumière bleue pour des résultats optimaux.</li>
+    </ul>
+
+    <div class="article-highlight">💡 <strong>Ce que dit la science :</strong> Une étude publiée dans le Journal of Cosmetic and Laser Therapy montre une réduction de 76% des lésions d'acné après 12 semaines de traitement combiné lumière bleue + rouge, utilisé 3 fois par semaine.</div>
+
+    <h2>Acné légère, modérée ou sévère — <em>pour qui ça marche ?</em></h2>
+    <p>La luminothérapie LED est particulièrement efficace sur :</p>
+    <ul>
+      <li><strong>Acné légère à modérée</strong> : points noirs, comédons ouverts, papules et pustules peu nombreuses</li>
+      <li><strong>Acné hormonale adulte</strong> : les poussées cycliques répondent bien au traitement régulier</li>
+      <li><strong>Peau sensible</strong> : alternative douce aux acides et rétinoïdes irritants</li>
+    </ul>
+    <p>En revanche, la LED sera insuffisante pour une <strong>acné sévère kystique ou nodulaire</strong> — consultez un dermatologue dans ce cas.</p>
+
+    <h2>Quels masques LED <em>pour l'acné</em> dans notre sélection ?</h2>
+    <p>Tous les masques de notre sélection proposent la lumière bleue anti-acné, mais voici nos recommandations spécifiques :</p>
+    <ul>
+      <li><strong>INIA Glow 2</strong> : mode acné dédié combinant bleu + rouge + infrarouge. Notre meilleur choix pour traiter l'acné tout en prévenant le vieillissement cutané.</li>
+      <li><strong>Shark CryoGlow</strong> : lumière bleue haute intensité à 128 mW/cm² + effet anti-inflammatoire de la cryothérapie. Excellent pour les peaux enflammées.</li>
+      <li><strong>Nanoleaf</strong> : mode acné dédié, rapport qualité/prix imbattable pour débuter le traitement LED.</li>
+    </ul>
+
+    <h2>Protocole recommandé — <em>comment utiliser la LED contre l'acné</em></h2>
+    <ul>
+      <li><strong>Fréquence</strong> : 3 à 5 séances par semaine</li>
+      <li><strong>Durée</strong> : 10 à 15 minutes par séance</li>
+      <li><strong>Mode</strong> : commencez par le mode bleu seul les 2 premières semaines, puis alternez avec le mode rouge</li>
+      <li><strong>Soins associés</strong> : après la séance, appliquez un sérum à la niacinamide ou à l'acide azélaïque — la peau est plus réceptive</li>
+      <li><strong>À éviter</strong> : ne pas utiliser d'acides concentrés (AHA/BHA) le même jour</li>
+    </ul>
+
+    <div class="article-highlight">⚠️ <strong>Important :</strong> Portez toujours les lunettes de protection fournies avec votre masque lors de l'utilisation de la lumière bleue. Une exposition prolongée de la lumière bleue sans protection peut être nocive pour les yeux.</div>
+
+    <h2>Résultats attendus — <em>semaine par semaine</em></h2>
+    <ul>
+      <li><strong>Semaine 1-2</strong> : légère réduction des rougeurs, peau moins enflammée</li>
+      <li><strong>Semaine 3-4</strong> : diminution visible des boutons actifs, moins de nouvelles poussées</li>
+      <li><strong>Semaine 6-8</strong> : réduction significative des lésions, teint plus uniforme</li>
+      <li><strong>Semaine 10-12</strong> : résultats optimaux, peau sensiblement améliorée</li>
+    </ul>
+
+    <div class="article-highlight">✅ <strong>Notre verdict :</strong> La lumière LED est une solution efficace et sans effets secondaires pour l'acné légère à modérée. Elle ne remplace pas un traitement médical pour les cas sévères, mais constitue un excellent complément à votre routine anti-acné quotidienne.</div>
+
   </div>
 
-  <div class="blog-post reveal">
-    <div class="blog-post-num">02</div>
-    <div>
-      <div class="blog-post-tag">Guide d'achat</div>
-      <h2>Masque LED visage : lequel choisir en 2026 ?</h2>
-      <div class="blog-post-meta">Lecture 4 min · Juin 2026</div>
-      <p>Irradiance, longueurs d'onde, certifications CE/FDA, budget... Tout ce qu'il faut savoir avant d'acheter un masque LED visage. Le guide complet pour faire le bon choix.</p>
-      <a href="guide.html" class="read-more">Lire l'article →</a>
-    </div>
+  <div class="article-cta-box">
+    <p>Prêt(e) à traiter votre acné avec la luminothérapie ? Découvrez notre sélection des masques LED avec mode anti-acné.</p>
+    <a href="index.html#produits" class="btn-primary">Voir la sélection →</a>
   </div>
 
-  <div class="blog-post reveal">
-    <div class="blog-post-num">03</div>
-    <div>
-      <div class="blog-post-tag">Comparatif</div>
-      <h2>INIA Glow 2 vs Shark CryoGlow : lequel est fait pour vous ?</h2>
-      <div class="blog-post-meta">Lecture 5 min · Juin 2026</div>
-      <p>Deux masques haut de gamme, deux approches différentes. Comparatif complet sur le prix, l'efficacité et la technologie pour vous aider à choisir entre ces deux références du marché.</p>
-      <a href="inia-vs-shark.html" class="read-more">Lire l'article →</a>
-    </div>
+  <div class="art-nav">
+    <a href="resultats.html" class="art-nav-btn">← Avant après : résultats réels</a>
+    <a href="blog.html" class="art-nav-btn art-nav-next">Tous les articles →</a>
   </div>
-
-
-
-<div class="blog-post reveal">
-    <div class="blog-post-num">04</div>
-    <div>
-      <div class="blog-post-tag">Acné & Imperfections</div>
-      <h2>Masque LED visage acné : ça marche vraiment ?</h2>
-      <div class="blog-post-meta">Lecture 5 min · Juillet 2026</div>
-      <p>Lumière bleue 415nm, lumière rouge 630nm... La luminothérapie LED est-elle vraiment efficace contre l'acné ? On fait le point avec les études scientifiques et les résultats concrets semaine par semaine.</p>
-      <a href="acne.html" class="read-more">Lire l'article →</a>
-    </div>
-  </div>
-
-<div class="blog-post reveal">
-    <div class="blog-post-num">05</div>
-    <div>
-      <div class="blog-post-tag">Guide Budget</div>
-      <h2>Meilleur masque LED visage pas cher 2026</h2>
-      <div class="blog-post-meta">Lecture 5 min · Juillet 2026</div>
-      <p>Pas besoin de dépenser 400€ pour profiter de la luminothérapie. Notre sélection des meilleurs masques LED visage efficaces à moins de 150€, avec les critères à ne jamais sacrifier même sur un petit budget.</p>
-      <a href="pas-cher.html" class="read-more">Lire l'article →</a>
-    </div>
-  </div>
-
-<div class="blog-post reveal">
-    <div class="blog-post-num">06</div>
-    <div>
-      <div class="blog-post-tag">Guide pratique</div>
-      <h2>Masque LED visage : les 8 erreurs à éviter</h2>
-      <div class="blog-post-meta">Lecture 5 min · Août 2026</div>
-      <p>Peau maquillée, utilisation irrégulière, rétinol le même jour... Ces erreurs très fréquentes peuvent diviser par 2 l'efficacité de votre masque LED. Le guide complet pour maximiser vos résultats.</p>
-      <a href="erreurs.html" class="read-more">Lire l'article →</a>
-    </div>
-  </div>
-
-</div>
-  
-
-  
-
-  
-
 </div>
 
 <!-- FOOTER -->
@@ -475,11 +500,5 @@
 </nav>
 </footer>
 
-<script>
-  const obs = new IntersectionObserver(e => {
-    e.forEach(x => { if(x.isIntersecting){x.target.classList.add('visible');obs.unobserve(x.target);} });
-  }, {threshold:0.1});
-  document.querySelectorAll('.reveal').forEach(el => obs.observe(el));
-</script>
 </body>
 </html>
