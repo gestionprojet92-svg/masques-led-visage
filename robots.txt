@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://masques-led-visage.fr/sitemap.xml
