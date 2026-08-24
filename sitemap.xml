@@ -1,95 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
+  <!-- Pages principales -->
   <url>
-    <loc>https://masques-led-visage.fr/</loc>
-    <lastmod>2026-08-17</lastmod>
+    <loc>https://masques-led-visage.fr/index.html</loc>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
 
   <url>
-    <loc>https://masques-led-visage.fr/produits.html</loc>
-    <lastmod>2026-08-17</lastmod>
+    <loc>https://masques-led-visage.fr/blog.html</loc>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://masques-led-visage.fr/comparatif.html</loc>
-    <lastmod>2026-08-17</lastmod>
+    <loc>https://masques-led-visage.fr/produits.html</loc>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://masques-led-visage.fr/blog.html</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>weekly</changefreq>
+    <loc>https://masques-led-visage.fr/comparatif.html</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://masques-led-visage.fr/faq.html</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
+  <!-- 5 NOUVEAUX ARTICLES (Août 2026) -->
   <url>
-    <loc>https://masques-led-visage.fr/resultats.html</loc>
-    <lastmod>2026-08-17</lastmod>
+    <loc>https://masques-led-visage.fr/infrarouge-peau.html</loc>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://masques-led-visage.fr/guide.html</loc>
-    <lastmod>2026-08-17</lastmod>
+    <loc>https://masques-led-visage.fr/efficace-arnaque.html</loc>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://masques-led-visage.fr/inia-vs-shark.html</loc>
-    <lastmod>2026-08-17</lastmod>
+    <loc>https://masques-led-visage.fr/meilleur-infrarouge-2026.html</loc>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://masques-led-visage.fr/acne.html</loc>
-    <lastmod>2026-08-17</lastmod>
+    <loc>https://masques-led-visage.fr/soin-visage-infrarouge-vs-rouge.html</loc>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://masques-led-visage.fr/pas-cher.html</loc>
-    <lastmod>2026-08-17</lastmod>
+    <loc>https://masques-led-visage.fr/avant-apres-resultats-led.html</loc>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://masques-led-visage.fr/erreurs.html</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://masques-led-visage.fr/peau-sensible.html</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://masques-led-visage.fr/confidentialite.html</loc>
-    <lastmod>2026-08-17</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
+    <priority>0.9</priority>
   </url>
 
 </urlset>
